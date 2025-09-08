@@ -1,0 +1,4508 @@
+{
+  "index": [
+    {
+      "dbn": "24Q290",
+      "name": "A.C.E. ACADEMY FOR SCHOLARS AT THE GERALDINE FERRA"
+    },
+    {
+      "dbn": "17K382",
+      "name": "ACADEMY FOR COLLEGE PREPARATION AND CAREER EXPLORA"
+    },
+    {
+      "dbn": "30Q235",
+      "name": "ACADEMY FOR NEW AMERICANS"
+    },
+    {
+      "dbn": "10X363",
+      "name": "ACADEMY FOR PERSONAL LEADERSHIP AND EXCELLENCE"
+    },
+    {
+      "dbn": "19K404",
+      "name": "ACADEMY FOR YOUNG WRITERS"
+    },
+    {
+      "dbn": "07X343",
+      "name": "ACADEMY OF APPLIED MATHEMATICS AND TECHNOLOGY"
+    },
+    {
+      "dbn": "13K492",
+      "name": "ACADEMY OF ARTS AND LETTERS"
+    },
+    {
+      "dbn": "27Q309",
+      "name": "ACADEMY OF MEDICAL TECHNOLOGY: A COLLEGE BOARD SCH"
+    },
+    {
+      "dbn": "07X298",
+      "name": "ACADEMY OF PUBLIC RELATIONS"
+    },
+    {
+      "dbn": "12X341",
+      "name": "ACCION ACADEMY"
+    },
+    {
+      "dbn": "30Q126",
+      "name": "ALBERT SHANKER SCHOOL FOR VISUAL AND PERFORMING AR"
+    },
+    {
+      "dbn": "32K554",
+      "name": "ALL CITY LEADERSHIP SECONDARY SCHOOL"
+    },
+    {
+      "dbn": "06M311",
+      "name": "AMISTAD DUAL LANGUAGE SCHOOL"
+    },
+    {
+      "dbn": "10X344",
+      "name": "AMPARK NEIGHBORHOOD"
+    },
+    {
+      "dbn": "22K240",
+      "name": "ANDRIES HUDDE"
+    },
+    {
+      "dbn": "08X376",
+      "name": "ANTONIA PANTOJA PREPARATORY ACADEMY: A COLLEGE BOA"
+    },
+    {
+      "dbn": "12X531",
+      "name": "ARCHER ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "08X367",
+      "name": "ARCHIMEDES ACADEMY FOR MATH, SCIENCE AND TECHNOLOG"
+    },
+    {
+      "dbn": "30Q580",
+      "name": "BACCALAUREATE SCHOOL FOR GLOBAL EDUCATION"
+    },
+    {
+      "dbn": "02M442",
+      "name": "BALLET TECH, NYC PUBLIC SCHOOL FOR DANCE"
+    },
+    {
+      "dbn": "02M276",
+      "name": "BATTERY PARK CITY SCHOOL"
+    },
+    {
+      "dbn": "11X169",
+      "name": "BAYCHESTER ACADEMY"
+    },
+    {
+      "dbn": "11X532",
+      "name": "BAYCHESTER MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "10X077",
+      "name": "BEDFORD PARK ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "25Q294",
+      "name": "BELL ACADEMY"
+    },
+    {
+      "dbn": "13K915",
+      "name": "BRIDGES: A SCHOOL FOR EXPLORATION AND EQUITY"
+    },
+    {
+      "dbn": "16K627",
+      "name": "BRIGHTER CHOICE COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "08X424",
+      "name": "BRONX ACADEMY FOR MULTI-MEDIA"
+    },
+    {
+      "dbn": "11X355",
+      "name": "BRONX ALLIANCE MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "10X308",
+      "name": "BRONX DANCE ACADEMY SCHOOL"
+    },
+    {
+      "dbn": "09X644",
+      "name": "BRONX DEBATE ACADEMY"
+    },
+    {
+      "dbn": "08X392",
+      "name": "BRONX DELTA SCHOOL"
+    },
+    {
+      "dbn": "09X324",
+      "name": "BRONX EARLY COLLEGE ACADEMY FOR TEACHING & LEARNIN"
+    },
+    {
+      "dbn": "11X326",
+      "name": "BRONX GREEN MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "09X413",
+      "name": "BRONX HIGH SCHOOL FOR MEDICAL SCIENCE"
+    },
+    {
+      "dbn": "12X267",
+      "name": "BRONX LATIN"
+    },
+    {
+      "dbn": "12X691",
+      "name": "BRONX LITTLE SCHOOL"
+    },
+    {
+      "dbn": "11X556",
+      "name": "BRONX PARK MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "09X505",
+      "name": "BRONX SCHOOL FOR LAW, GOVERNMENT AND JUSTICE"
+    },
+    {
+      "dbn": "08X269",
+      "name": "BRONX STUDIO SCHOOL FOR WRITERS AND ARTISTS"
+    },
+    {
+      "dbn": "09X323",
+      "name": "BRONX WRITING ACADEMY"
+    },
+    {
+      "dbn": "14K414",
+      "name": "BROOKLYN ARBOR ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "17K705",
+      "name": "BROOKLYN ARTS AND SCIENCE ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "16K628",
+      "name": "BROOKLYN BROWNSTONE SCHOOL"
+    },
+    {
+      "dbn": "15K448",
+      "name": "BROOKLYN COLLABORATIVE STUDIES"
+    },
+    {
+      "dbn": "23K664",
+      "name": "BROOKLYN ENVIRONMENTAL EXPLORATION SCHOOL (BEES)"
+    },
+    {
+      "dbn": "19K557",
+      "name": "BROOKLYN GARDENS ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "23K599",
+      "name": "BROOKLYN LANDMARK ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "20K686",
+      "name": "BROOKLYN SCHOOL OF INQUIRY"
+    },
+    {
+      "dbn": "18K763",
+      "name": "BROOKLYN SCIENCE AND ENGINEERING ACADEMY"
+    },
+    {
+      "dbn": "21K690",
+      "name": "BROOKLYN STUDIO SECONDARY SCHOOL"
+    },
+    {
+      "dbn": "23K363",
+      "name": "BROWNSVILLE COLLABORATIVE MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "06M513",
+      "name": "CASTLE BRIDGE SCHOOL"
+    },
+    {
+      "dbn": "28Q072",
+      "name": "CATHERINE & COUNT BASIE MIDDLE SCHOOL 72"
+    },
+    {
+      "dbn": "04M497",
+      "name": "CENTRAL PARK EAST I"
+    },
+    {
+      "dbn": "04M964",
+      "name": "CENTRAL PARK EAST II"
+    },
+    {
+      "dbn": "27Q262",
+      "name": "CHANNEL VIEW SCHOOL FOR RESEARCH"
+    },
+    {
+      "dbn": "23K401",
+      "name": "CHRISTOPHER AVENUE COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "06M293",
+      "name": "CITY COLLEGE ACADEMY OF THE ARTS"
+    },
+    {
+      "dbn": "29Q355",
+      "name": "COLLABORATIVE ARTS MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "25Q379",
+      "name": "COLLEGE POINT COLLABORATIVE"
+    },
+    {
+      "dbn": "05M362",
+      "name": "COLUMBIA SECONDARY SCHOOL"
+    },
+    {
+      "dbn": "03M258",
+      "name": "COMMUNITY ACTION SCHOOL - MS 258"
+    },
+    {
+      "dbn": "06M346",
+      "name": "COMMUNITY HEALTH ACADEMY OF THE HEIGHTS"
+    },
+    {
+      "dbn": "06M328",
+      "name": "COMMUNITY MATH & SCIENCE PREP"
+    },
+    {
+      "dbn": "29Q356",
+      "name": "COMMUNITY VOICES MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "09X327",
+      "name": "COMPREHENSIVE MODEL SCHOOL PROJECT M.S. 327"
+    },
+    {
+      "dbn": "14K577",
+      "name": "CONSELYEA PREPARATORY SCHOOL"
+    },
+    {
+      "dbn": "11X189",
+      "name": "CORNERSTONE ACADEMY FOR SOCIAL ACTION"
+    },
+    {
+      "dbn": "11X462",
+      "name": "CORNERSTONE ACADEMY FOR SOCIAL ACTION MIDDLE SCHOO"
+    },
+    {
+      "dbn": "24Q311",
+      "name": "CORONA ARTS & SCIENCES ACADEMY"
+    },
+    {
+      "dbn": "10X447",
+      "name": "CRESTON ACADEMY"
+    },
+    {
+      "dbn": "29Q037",
+      "name": "CYNTHIA JENKINS SCHOOL"
+    },
+    {
+      "dbn": "28Q048",
+      "name": "DAVID N. DINKINS SCHOOL"
+    },
+    {
+      "dbn": "13K313",
+      "name": "DOCK STREET SCHOOL FOR STEAM STUDIES"
+    },
+    {
+      "dbn": "06M103",
+      "name": "DOS PUENTES ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "17K012",
+      "name": "DR. JACQUELINE PEEK-DAVIS SCHOOL"
+    },
+    {
+      "dbn": "12X190",
+      "name": "E.S.M.T- I.S. 190"
+    },
+    {
+      "dbn": "09X231",
+      "name": "EAGLE ACADEMY FOR YOUNG MEN"
+    },
+    {
+      "dbn": "23K644",
+      "name": "EAGLE ACADEMY FOR YOUNG MEN II"
+    },
+    {
+      "dbn": "29Q327",
+      "name": "EAGLE ACADEMY FOR YOUNG MEN III"
+    },
+    {
+      "dbn": "05M148",
+      "name": "EAGLE ACADEMY FOR YOUNG MEN OF HARLEM"
+    },
+    {
+      "dbn": "01M364",
+      "name": "EARTH SCHOOL"
+    },
+    {
+      "dbn": "12X271",
+      "name": "EAST BRONX ACADEMY FOR THE FUTURE"
+    },
+    {
+      "dbn": "30Q329",
+      "name": "EAST ELMHURST COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "19K677",
+      "name": "EAST NEW YORK ELEMENTARY SCHOOL OF EXCELLENCE"
+    },
+    {
+      "dbn": "19K409",
+      "name": "EAST NEW YORK FAMILY ACADEMY"
+    },
+    {
+      "dbn": "19K678",
+      "name": "EAST NEW YORK MIDDLE SCHOOL OF EXCELLENCE"
+    },
+    {
+      "dbn": "01M450",
+      "name": "EAST SIDE COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "02M267",
+      "name": "EAST SIDE ELEMENTARY SCHOOL, PS 267"
+    },
+    {
+      "dbn": "02M114",
+      "name": "EAST SIDE MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "25Q281",
+      "name": "EAST-WEST SCHOOL OF INTERNATIONAL STUDIES"
+    },
+    {
+      "dbn": "17K352",
+      "name": "EBBETS FIELD MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "17K353",
+      "name": "ELIJAH STROUD MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "02M225",
+      "name": "ELLA BAKER SCHOOL"
+    },
+    {
+      "dbn": "24Q211",
+      "name": "ELM TREE ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "12X383",
+      "name": "EMOLIOR ACADEMY"
+    },
+    {
+      "dbn": "04M372",
+      "name": "ESPERANZA PREPARATORY ACADEMY"
+    },
+    {
+      "dbn": "32K562",
+      "name": "EVERGREEN MIDDLE SCHOOL FOR URBAN EXPLORATION"
+    },
+    {
+      "dbn": "02M303",
+      "name": "FACING HISTORY SCHOOL, THE"
+    },
+    {
+      "dbn": "12X314",
+      "name": "FAIRMONT NEIGHBORHOOD SCHOOL"
+    },
+    {
+      "dbn": "12X286",
+      "name": "FANNIE LOU HAMER MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "13K691",
+      "name": "FORT GREENE PREPARATORY ACADEMY"
+    },
+    {
+      "dbn": "31R010",
+      "name": "FORT HILL COLLABORATIVE ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "05M499",
+      "name": "FREDERICK DOUGLASS ACADEMY"
+    },
+    {
+      "dbn": "03M860",
+      "name": "FREDERICK DOUGLASS ACADEMY II SECONDARY SCHOOL"
+    },
+    {
+      "dbn": "12X273",
+      "name": "FREDERICK DOUGLASS ACADEMY V. MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "19K452",
+      "name": "FREDERICK DOUGLASS ACADEMY VIII MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "15K428",
+      "name": "GLOBAL INNOVATORS ACADEMY"
+    },
+    {
+      "dbn": "27Q333",
+      "name": "GOLDIE MAPLE ACADEMY"
+    },
+    {
+      "dbn": "09X449",
+      "name": "GRANT AVENUE ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "06M209",
+      "name": "HAMILTON GRANGE MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "06M052",
+      "name": "HAROLD O. LEVY SCHOOL"
+    },
+    {
+      "dbn": "27Q297",
+      "name": "HAWTREE CREEK MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "24Q330",
+      "name": "HELEN M. MARSHALL SCHOOL"
+    },
+    {
+      "dbn": "19K760",
+      "name": "HIGHLAND PARK COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "07X500",
+      "name": "HOSTOS-LINCOLN ACADEMY OF SCIENCE"
+    },
+    {
+      "dbn": "30Q291",
+      "name": "HUNTERS POINT COMMUNITY MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "30Q384",
+      "name": "HUNTERS POINT ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "22K381",
+      "name": "I. S. 381"
+    },
+    {
+      "dbn": "30Q429",
+      "name": "I.S 429"
+    },
+    {
+      "dbn": "31R007",
+      "name": "I.S. 007 ELIAS BERNSTEIN"
+    },
+    {
+      "dbn": "30Q010",
+      "name": "I.S. 010 HORACE GREELEY"
+    },
+    {
+      "dbn": "31R024",
+      "name": "I.S. 024 MYRA S. BARNES"
+    },
+    {
+      "dbn": "25Q025",
+      "name": "I.S. 025 ADRIEN BLOCK"
+    },
+    {
+      "dbn": "31R027",
+      "name": "I.S. 027 ANNING S. PRALL"
+    },
+    {
+      "dbn": "31R034",
+      "name": "I.S. 034 TOTTENVILLE"
+    },
+    {
+      "dbn": "31R051",
+      "name": "I.S. 051 EDWIN MARKHAM"
+    },
+    {
+      "dbn": "29Q059",
+      "name": "I.S. 059 SPRINGFIELD GARDENS"
+    },
+    {
+      "dbn": "24Q061",
+      "name": "I.S. 061 LEONARDO DA VINCI"
+    },
+    {
+      "dbn": "31R061",
+      "name": "I.S. 061 WILLIAM A MORRIS"
+    },
+    {
+      "dbn": "18K068",
+      "name": "I.S. 068 ISAAC BILDERSEE"
+    },
+    {
+      "dbn": "31R072",
+      "name": "I.S. 072 ROCCO LAURIE"
+    },
+    {
+      "dbn": "31R075",
+      "name": "I.S. 075 FRANK D. PAULO"
+    },
+    {
+      "dbn": "24Q093",
+      "name": "I.S. 093 RIDGEWOOD"
+    },
+    {
+      "dbn": "21K096",
+      "name": "I.S. 096 SETH LOW"
+    },
+    {
+      "dbn": "09X117",
+      "name": "I.S. 117 JOSEPH H. WADE"
+    },
+    {
+      "dbn": "24Q125",
+      "name": "I.S. 125 THOM J. MCCANN WOODSIDE"
+    },
+    {
+      "dbn": "15K136",
+      "name": "I.S. 136 CHARLES O. DEWEY"
+    },
+    {
+      "dbn": "30Q141",
+      "name": "I.S. 141 THE STEINWAY"
+    },
+    {
+      "dbn": "30Q145",
+      "name": "I.S. 145 JOSEPH PULITZER"
+    },
+    {
+      "dbn": "19K171",
+      "name": "I.S. 171 ABRAHAM LINCOLN"
+    },
+    {
+      "dbn": "11X181",
+      "name": "I.S. 181 PABLO CASALS"
+    },
+    {
+      "dbn": "29Q192",
+      "name": "I.S. 192 THE LINDEN"
+    },
+    {
+      "dbn": "30Q204",
+      "name": "I.S. 204 OLIVER W. HOLMES"
+    },
+    {
+      "dbn": "10X206",
+      "name": "I.S. 206 ANN MERSEREAU"
+    },
+    {
+      "dbn": "18K211",
+      "name": "I.S. 211 JOHN WILSON"
+    },
+    {
+      "dbn": "09X219",
+      "name": "I.S. 219 NEW VENTURE SCHOOL"
+    },
+    {
+      "dbn": "30Q227",
+      "name": "I.S. 227 LOUIS ARMSTRONG"
+    },
+    {
+      "dbn": "21K228",
+      "name": "I.S. 228 DAVID A. BOODY"
+    },
+    {
+      "dbn": "09X229",
+      "name": "I.S. 229 ROLAND PATTERSON"
+    },
+    {
+      "dbn": "30Q230",
+      "name": "I.S. 230"
+    },
+    {
+      "dbn": "09X232",
+      "name": "I.S. 232"
+    },
+    {
+      "dbn": "25Q237",
+      "name": "I.S. 237"
+    },
+    {
+      "dbn": "29Q238",
+      "name": "I.S. 238 - SUSAN B. ANTHONY ACADEMY"
+    },
+    {
+      "dbn": "25Q250",
+      "name": "I.S. 250 THE ROBERT F. KENNEDY COMMUNITY MIDDLE SC"
+    },
+    {
+      "dbn": "10X254",
+      "name": "I.S. 254"
+    },
+    {
+      "dbn": "21K281",
+      "name": "I.S. 281 JOSEPH B CAVALLARO"
+    },
+    {
+      "dbn": "18K285",
+      "name": "I.S. 285 MEYER LEVIN"
+    },
+    {
+      "dbn": "02M289",
+      "name": "I.S. 289"
+    },
+    {
+      "dbn": "21K303",
+      "name": "I.S. 303 HERBERT S. EISENBERG"
+    },
+    {
+      "dbn": "09X313",
+      "name": "I.S. 313 SCHOOL OF LEADERSHIP DEVELOPMENT"
+    },
+    {
+      "dbn": "14K318",
+      "name": "I.S. 318 EUGENIO MARIA DE HOSTOS"
+    },
+    {
+      "dbn": "09X339",
+      "name": "I.S. 339"
+    },
+    {
+      "dbn": "17K340",
+      "name": "I.S. 340"
+    },
+    {
+      "dbn": "32K347",
+      "name": "I.S. 347 SCHOOL OF HUMANITIES"
+    },
+    {
+      "dbn": "32K349",
+      "name": "I.S. 349 MATH, SCIENCE & TECH."
+    },
+    {
+      "dbn": "23K392",
+      "name": "I.S. 392"
+    },
+    {
+      "dbn": "31R049",
+      "name": "I.S. 49 BERTA A. DREYFUS"
+    },
+    {
+      "dbn": "24Q005",
+      "name": "I.S. 5 - THE WALTER CROWLEY INTERMEDIATE SCHOOL"
+    },
+    {
+      "dbn": "06M528",
+      "name": "I.S. 528 BEA FULLER RODGERS SCHOOL"
+    },
+    {
+      "dbn": "07X584",
+      "name": "I.S. 584"
+    },
+    {
+      "dbn": "24Q073",
+      "name": "I.S. 73 - THE FRANK SANSIVIERI INTERMEDIATE SCHOOL"
+    },
+    {
+      "dbn": "21K098",
+      "name": "I.S. 98 BAY ACADEMY"
+    },
+    {
+      "dbn": "31R002",
+      "name": "I.S. R002 GEORGE L. EGBERT"
+    },
+    {
+      "dbn": "09X303",
+      "name": "I.S. X303 LEADERSHIP & COMMUNITY SERVICE"
+    },
+    {
+      "dbn": "12X318",
+      "name": "I.S. X318 MATH, SCIENCE & TECHNOLOGY THROUGH ARTS"
+    },
+    {
+      "dbn": "10X368",
+      "name": "IN-TECH ACADEMY (M.S. / HIGH SCHOOL 368)"
+    },
+    {
+      "dbn": "02M407",
+      "name": "INSTITUTE FOR COLLABORATIVE EDUCATION"
+    },
+    {
+      "dbn": "10X342",
+      "name": "INTERNATIONAL SCHOOL FOR LIBERAL ARTS"
+    },
+    {
+      "dbn": "26Q172",
+      "name": "IRWIN ALTMAN MIDDLE SCHOOL 172"
+    },
+    {
+      "dbn": "04M825",
+      "name": "ISAAC NEWTON MIDDLE SCHOOL FOR MATH & SCIENCE"
+    },
+    {
+      "dbn": "28Q008",
+      "name": "J.H.S. 008 RICHARD S. GROSSLEY"
+    },
+    {
+      "dbn": "22K014",
+      "name": "J.H.S. 014 SHELL BANK"
+    },
+    {
+      "dbn": "09X022",
+      "name": "J.H.S. 022 JORDAN L. MOTT"
+    },
+    {
+      "dbn": "14K050",
+      "name": "J.H.S. 050 JOHN D. WELLS"
+    },
+    {
+      "dbn": "03M054",
+      "name": "J.H.S. 054 BOOKER T. WASHINGTON"
+    },
+    {
+      "dbn": "20K062",
+      "name": "J.H.S. 062 DITMAS"
+    },
+    {
+      "dbn": "26Q067",
+      "name": "J.H.S. 067 LOUIS PASTEUR"
+    },
+    {
+      "dbn": "26Q074",
+      "name": "J.H.S. 074 NATHANIEL HAWTHORNE"
+    },
+    {
+      "dbn": "22K078",
+      "name": "J.H.S. 078 ROY H. MANN"
+    },
+    {
+      "dbn": "10X080",
+      "name": "J.H.S. 080 THE MOSHOLU PARKWAY"
+    },
+    {
+      "dbn": "15K088",
+      "name": "J.H.S. 088 PETER ROUGET"
+    },
+    {
+      "dbn": "02M104",
+      "name": "J.H.S. 104 SIMON BARUCH"
+    },
+    {
+      "dbn": "10X118",
+      "name": "J.H.S. 118 WILLIAM W. NILES"
+    },
+    {
+      "dbn": "08X123",
+      "name": "J.H.S. 123 JAMES M. KIERAN"
+    },
+    {
+      "dbn": "11X127",
+      "name": "J.H.S. 127 THE CASTLE HILL"
+    },
+    {
+      "dbn": "08X131",
+      "name": "J.H.S. 131 ALBERT EINSTEIN"
+    },
+    {
+      "dbn": "06M143",
+      "name": "J.H.S. 143 ELEANOR ROOSEVELT"
+    },
+    {
+      "dbn": "11X144",
+      "name": "J.H.S. 144 MICHELANGELO"
+    },
+    {
+      "dbn": "28Q157",
+      "name": "J.H.S. 157 STEPHEN A. HALSEY"
+    },
+    {
+      "dbn": "32K162",
+      "name": "J.H.S. 162 THE WILLOUGHBY"
+    },
+    {
+      "dbn": "02M167",
+      "name": "J.H.S. 167 ROBERT F. WAGNER"
+    },
+    {
+      "dbn": "25Q185",
+      "name": "J.H.S. 185 EDWARD BLEEKER"
+    },
+    {
+      "dbn": "25Q189",
+      "name": "J.H.S. 189 DANIEL CARTER BEARD"
+    },
+    {
+      "dbn": "28Q190",
+      "name": "J.H.S. 190 RUSSELL SAGE"
+    },
+    {
+      "dbn": "25Q194",
+      "name": "J.H.S. 194 WILLIAM CARR"
+    },
+    {
+      "dbn": "27Q202",
+      "name": "J.H.S. 202 ROBERT H. GODDARD"
+    },
+    {
+      "dbn": "27Q210",
+      "name": "J.H.S. 210 ELIZABETH BLACKWELL"
+    },
+    {
+      "dbn": "26Q216",
+      "name": "J.H.S. 216 GEORGE J. RYAN"
+    },
+    {
+      "dbn": "28Q217",
+      "name": "J.H.S. 217 ROBERT A. VAN WYCK"
+    },
+    {
+      "dbn": "19K218",
+      "name": "J.H.S. 218 JAMES P. SINNOTT"
+    },
+    {
+      "dbn": "20K220",
+      "name": "J.H.S. 220 JOHN J. PERSHING"
+    },
+    {
+      "dbn": "20K223",
+      "name": "J.H.S. 223 THE MONTAUK"
+    },
+    {
+      "dbn": "27Q226",
+      "name": "J.H.S. 226 VIRGIL I. GRISSOM"
+    },
+    {
+      "dbn": "20K227",
+      "name": "J.H.S. 227 EDWARD B. SHALLOW"
+    },
+    {
+      "dbn": "22K234",
+      "name": "J.H.S. 234 ARTHUR W. CUNNINGHAM"
+    },
+    {
+      "dbn": "20K259",
+      "name": "J.H.S. 259 WILLIAM MCKINLEY"
+    },
+    {
+      "dbn": "22K278",
+      "name": "J.H.S. 278 MARINE PARK"
+    },
+    {
+      "dbn": "32K291",
+      "name": "J.H.S. 291 ROLAND HAYES"
+    },
+    {
+      "dbn": "19K292",
+      "name": "J.H.S. 292 MARGARET S. DOUGLAS"
+    },
+    {
+      "dbn": "32K383",
+      "name": "J.H.S. 383 PHILIPPA SCHUYLER"
+    },
+    {
+      "dbn": "28Q312",
+      "name": "JAMAICA CHILDREN'S SCHOOL"
+    },
+    {
+      "dbn": "04M057",
+      "name": "JAMES WELDON JOHNSON"
+    },
+    {
+      "dbn": "29Q109",
+      "name": "JEAN NUZZI INTERMEDIATE SCHOOL"
+    },
+    {
+      "dbn": "14K126",
+      "name": "JOHN ERICSSON MIDDLE SCHOOL 126"
+    },
+    {
+      "dbn": "10X228",
+      "name": "JONAS BRONCK ACADEMY"
+    },
+    {
+      "dbn": "24Q077",
+      "name": "JOSEPH F. QUINN INTERMEDIATE SCHOOL 77"
+    },
+    {
+      "dbn": "14K071",
+      "name": "JUAN MOREL CAMPOS SECONDARY SCHOOL"
+    },
+    {
+      "dbn": "09X215",
+      "name": "KAPPA"
+    },
+    {
+      "dbn": "12X316",
+      "name": "KAPPA III"
+    },
+    {
+      "dbn": "23K518",
+      "name": "KAPPA V (KNOWLEDGE AND POWER PREPARATORY ACADEMY)"
+    },
+    {
+      "dbn": "21K468",
+      "name": "KINGSBOROUGH EARLY COLLEGE SCHOOL"
+    },
+    {
+      "dbn": "27Q282",
+      "name": "KNOWLEDGE AND POWER PREPARATORY ACADEMY VI"
+    },
+    {
+      "dbn": "03M256",
+      "name": "LAFAYETTE ACADEMY"
+    },
+    {
+      "dbn": "07X359",
+      "name": "LEADERS OF EXCELLENCE, ADVOCACY AND DISCOVERY"
+    },
+    {
+      "dbn": "11X370",
+      "name": "LEADERS OF TOMORROW"
+    },
+    {
+      "dbn": "24Q305",
+      "name": "LEARNERS AND LEADERS"
+    },
+    {
+      "dbn": "19K907",
+      "name": "LEGACY SCHOOL OF THE ARTS"
+    },
+    {
+      "dbn": "18K961",
+      "name": "LENOX ACADEMY M. S. 961"
+    },
+    {
+      "dbn": "19K662",
+      "name": "LIBERTY AVENUE MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "27Q106",
+      "name": "LIGHTHOUSE ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "11X567",
+      "name": "LINDEN TREE ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "02M896",
+      "name": "LOWER MANHATTAN COMMUNITY MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "09X311",
+      "name": "LUCERO ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "14K586",
+      "name": "LYONS COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "16K035",
+      "name": "M.S. 035 STEPHEN DECATUR"
+    },
+    {
+      "dbn": "27Q053",
+      "name": "M.S. 053 BRIAN PICCOLO"
+    },
+    {
+      "dbn": "17K061",
+      "name": "M.S. 061 DR. GLADSTONE H. ATWELL"
+    },
+    {
+      "dbn": "13K113",
+      "name": "M.S. 113 RONALD EDMONDS LEARNING CENTER"
+    },
+    {
+      "dbn": "12X129",
+      "name": "M.S. 129 ACADEMY FOR INDEPENDENT LEARNING AND LEAD"
+    },
+    {
+      "dbn": "02M131",
+      "name": "M.S. 131"
+    },
+    {
+      "dbn": "27Q137",
+      "name": "M.S. 137 AMERICA'S SCHOOL OF HEROES"
+    },
+    {
+      "dbn": "26Q158",
+      "name": "M.S. 158 MARIE CURIE"
+    },
+    {
+      "dbn": "11X180",
+      "name": "M.S. 180 DR. DANIEL HALE WILLIAMS"
+    },
+    {
+      "dbn": "04M224",
+      "name": "M.S. 224 MANHATTAN EAST SCHOOL FOR ARTS & ACADEMIC"
+    },
+    {
+      "dbn": "03M243",
+      "name": "M.S. 243 CENTER SCHOOL"
+    },
+    {
+      "dbn": "17K246",
+      "name": "M.S. 246 WALT WHITMAN"
+    },
+    {
+      "dbn": "02M255",
+      "name": "M.S. 255 SALK SCHOOL OF SCIENCE"
+    },
+    {
+      "dbn": "16K267",
+      "name": "M.S. 267 MATH, SCIENCE & TECHNOLOGY"
+    },
+    {
+      "dbn": "02M297",
+      "name": "M.S. 297"
+    },
+    {
+      "dbn": "08X301",
+      "name": "M.S. 301 PAUL L. DUNBAR"
+    },
+    {
+      "dbn": "08X302",
+      "name": "M.S. 302 LUISA DESSUS CRUZ"
+    },
+    {
+      "dbn": "06M319",
+      "name": "M.S. 319 - MARIA TERESA"
+    },
+    {
+      "dbn": "06M324",
+      "name": "M.S. 324 - PATRIA MIRABAL"
+    },
+    {
+      "dbn": "28Q358",
+      "name": "M.S. 358"
+    },
+    {
+      "dbn": "10X390",
+      "name": "M.S. 390"
+    },
+    {
+      "dbn": "15K442",
+      "name": "M.S. 442 CARROLL GARDENS SCHOOL FOR INNOVATION"
+    },
+    {
+      "dbn": "15K051",
+      "name": "M.S. 51 WILLIAM ALEXANDER"
+    },
+    {
+      "dbn": "14K582",
+      "name": "M.S. 582"
+    },
+    {
+      "dbn": "15K839",
+      "name": "M.S. 839"
+    },
+    {
+      "dbn": "22K890",
+      "name": "M.S. 890"
+    },
+    {
+      "dbn": "19K935",
+      "name": "M.S. 935"
+    },
+    {
+      "dbn": "13K266",
+      "name": "M.S. K266 - PARK PLACE COMMUNITY MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "17K394",
+      "name": "M.S. K394"
+    },
+    {
+      "dbn": "03M245",
+      "name": "M.S. M245 THE COMPUTER SCHOOL"
+    },
+    {
+      "dbn": "03M247",
+      "name": "M.S. M247 DUAL LANGUAGE MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "08X101",
+      "name": "M.S. X101 EDWARD R. BYRNE"
+    },
+    {
+      "dbn": "16K681",
+      "name": "MADIBA PREP MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "15K010",
+      "name": "MAGNET SCHOOL OF MATH, SCIENCE AND DESIGN TECHNOLO"
+    },
+    {
+      "dbn": "21K239",
+      "name": "MARK TWAIN I.S. 239 FOR THE GIFTED & TALENTED"
+    },
+    {
+      "dbn": "31R063",
+      "name": "MARSH AVENUE SCHOOL FOR EXPEDITIONARY LEARNING"
+    },
+    {
+      "dbn": "17K590",
+      "name": "MEDGAR EVERS COLLEGE PREPARATORY SCHOOL"
+    },
+    {
+      "dbn": "28Q167",
+      "name": "METROPOLITAN EXPEDITIONARY LEARNING SCHOOL"
+    },
+    {
+      "dbn": "06M322",
+      "name": "MIDDLE SCHOOL 322"
+    },
+    {
+      "dbn": "18K588",
+      "name": "MIDDLE SCHOOL FOR ART AND PHILOSOPHY"
+    },
+    {
+      "dbn": "10X007",
+      "name": "MILTON FEIN SCHOOL"
+    },
+    {
+      "dbn": "04M375",
+      "name": "MOSAIC PREPARATORY ACADEMY"
+    },
+    {
+      "dbn": "23K671",
+      "name": "MOTT HALL BRIDGES ACADEMY"
+    },
+    {
+      "dbn": "08X467",
+      "name": "MOTT HALL COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "03M862",
+      "name": "MOTT HALL II"
+    },
+    {
+      "dbn": "09X128",
+      "name": "MOTT HALL III"
+    },
+    {
+      "dbn": "23K522",
+      "name": "MOTT HALL IV"
+    },
+    {
+      "dbn": "12X242",
+      "name": "MOTT HALL V"
+    },
+    {
+      "dbn": "09X555",
+      "name": "MOUNT EDEN CHILDREN'S ACADEMY"
+    },
+    {
+      "dbn": "24Q419",
+      "name": "MS 419"
+    },
+    {
+      "dbn": "20K936",
+      "name": "MS 936 ARTS OFF 3RD"
+    },
+    {
+      "dbn": "06M314",
+      "name": "MUSCOTA"
+    },
+    {
+      "dbn": "31R009",
+      "name": "NAPLES STREET ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "01M363",
+      "name": "NEIGHBORHOOD SCHOOL"
+    },
+    {
+      "dbn": "17K532",
+      "name": "NEW BRIDGES ELEMENTARY"
+    },
+    {
+      "dbn": "05M514",
+      "name": "NEW DESIGN MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "01M539",
+      "name": "NEW EXPLORATIONS INTO SCIENCE, TECHNOLOGY AND MATH"
+    },
+    {
+      "dbn": "17K722",
+      "name": "NEW HEIGHTS MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "09X328",
+      "name": "NEW MILLENNIUM BRONX ACADEMY OF THE ARTS"
+    },
+    {
+      "dbn": "09X594",
+      "name": "NEW PATHWAYS ACADEMY"
+    },
+    {
+      "dbn": "15K443",
+      "name": "NEW VOICES SCHOOL OF ACADEMIC & CREATIVE ARTS"
+    },
+    {
+      "dbn": "27Q306",
+      "name": "NEW YORK CITY ACADEMY FOR DISCOVERY"
+    },
+    {
+      "dbn": "02M312",
+      "name": "NEW YORK CITY LAB MIDDLE SCHOOL FOR COLLABORATIVE"
+    },
+    {
+      "dbn": "17K006",
+      "name": "NORMA ADAMS CLEMONS ACADEMY"
+    },
+    {
+      "dbn": "11X287",
+      "name": "NORTH BRONX SCHOOL OF EMPOWERMENT"
+    },
+    {
+      "dbn": "11X529",
+      "name": "ONE WORLD MIDDLE SCHOOL AT EDENWALD"
+    },
+    {
+      "dbn": "27Q062",
+      "name": "P. S. 62 - CHESTER PARK SCHOOL"
+    },
+    {
+      "dbn": "32K384",
+      "name": "P.S. /I.S. 384 FRANCES E. CARTER"
+    },
+    {
+      "dbn": "02M001",
+      "name": "P.S. 001 ALFRED E. SMITH"
+    },
+    {
+      "dbn": "07X001",
+      "name": "P.S. 001 COURTLANDT SCHOOL"
+    },
+    {
+      "dbn": "15K001",
+      "name": "P.S. 001 THE BERGEN"
+    },
+    {
+      "dbn": "31R001",
+      "name": "P.S. 001 TOTTENVILLE"
+    },
+    {
+      "dbn": "30Q002",
+      "name": "P.S. 002 ALFRED ZIMBERG"
+    },
+    {
+      "dbn": "02M002",
+      "name": "P.S. 002 MEYER LONDON"
+    },
+    {
+      "dbn": "02M003",
+      "name": "P.S. 003 CHARRETTE SCHOOL"
+    },
+    {
+      "dbn": "13K003",
+      "name": "P.S. 003 THE BEDFORD VILLAGE"
+    },
+    {
+      "dbn": "31R003",
+      "name": "P.S. 003 THE MARGARET GIOIOSA SCHOOL"
+    },
+    {
+      "dbn": "06M004",
+      "name": "P.S. 004 DUKE ELLINGTON"
+    },
+    {
+      "dbn": "31R004",
+      "name": "P.S. 004 MAURICE WOLLIN"
+    },
+    {
+      "dbn": "16K005",
+      "name": "P.S. 005 DR. RONALD MCNAIR"
+    },
+    {
+      "dbn": "06M005",
+      "name": "P.S. 005 ELLEN LURIE"
+    },
+    {
+      "dbn": "31R005",
+      "name": "P.S. 005 HUGUENOT"
+    },
+    {
+      "dbn": "02M006",
+      "name": "P.S. 006 LILLIE D. BLAKE"
+    },
+    {
+      "dbn": "12X006",
+      "name": "P.S. 006 WEST FARMS"
+    },
+    {
+      "dbn": "19K007",
+      "name": "P.S. 007 ABRAHAM LINCOLN"
+    },
+    {
+      "dbn": "24Q007",
+      "name": "P.S. 007 LOUIS F. SIMEONE"
+    },
+    {
+      "dbn": "04M007",
+      "name": "P.S. 007 SAMUEL STERN"
+    },
+    {
+      "dbn": "10X008",
+      "name": "P.S. 008 ISAAC VARIAN"
+    },
+    {
+      "dbn": "06M008",
+      "name": "P.S. 008 LUIS BELLIARD"
+    },
+    {
+      "dbn": "03M009",
+      "name": "P.S. 009 SARAH ANDERSON"
+    },
+    {
+      "dbn": "09X011",
+      "name": "P.S. 011 HIGHBRIDGE"
+    },
+    {
+      "dbn": "30Q011",
+      "name": "P.S. 011 KATHRYN PHELAN"
+    },
+    {
+      "dbn": "13K011",
+      "name": "P.S. 011 PURVIS J. BEHAN"
+    },
+    {
+      "dbn": "02M011",
+      "name": "P.S. 011: THE SARAH J. GARNET ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "24Q012",
+      "name": "P.S. 012 JAMES B. COLGATE"
+    },
+    {
+      "dbn": "24Q013",
+      "name": "P.S. 013 CLEMENT C. MOORE"
+    },
+    {
+      "dbn": "31R013",
+      "name": "P.S. 013 M. L. LINDEMEYER"
+    },
+    {
+      "dbn": "19K013",
+      "name": "P.S. 013 ROBERTO CLEMENTE"
+    },
+    {
+      "dbn": "24Q014",
+      "name": "P.S. 014 FAIRVIEW"
+    },
+    {
+      "dbn": "29Q015",
+      "name": "P.S. 015 JACKIE ROBINSON"
+    },
+    {
+      "dbn": "15K015",
+      "name": "P.S. 015 PATRICK F. DALY"
+    },
+    {
+      "dbn": "01M015",
+      "name": "P.S. 015 ROBERTO CLEMENTE"
+    },
+    {
+      "dbn": "31R016",
+      "name": "P.S. 016 JOHN J. DRISCOLL"
+    },
+    {
+      "dbn": "14K016",
+      "name": "P.S. 016 LEONARD DUNKLY"
+    },
+    {
+      "dbn": "11X016",
+      "name": "P.S. 016 WAKEFIELD"
+    },
+    {
+      "dbn": "14K017",
+      "name": "P.S. 017 HENRY D. WOODWORTH"
+    },
+    {
+      "dbn": "30Q017",
+      "name": "P.S. 017 HENRY DAVID THOREAU"
+    },
+    {
+      "dbn": "14K018",
+      "name": "P.S. 018 EDWARD BUSH"
+    },
+    {
+      "dbn": "31R018",
+      "name": "P.S. 018 JOHN G. WHITTIER"
+    },
+    {
+      "dbn": "07X018",
+      "name": "P.S. 018 JOHN PETER ZENGER"
+    },
+    {
+      "dbn": "06M018",
+      "name": "P.S. 018 PARK TERRACE"
+    },
+    {
+      "dbn": "26Q018",
+      "name": "P.S. 018 WINCHESTER"
+    },
+    {
+      "dbn": "11X019",
+      "name": "P.S. 019 JUDITH K. WEISS"
+    },
+    {
+      "dbn": "24Q019",
+      "name": "P.S. 019 MARINO JEANTET"
+    },
+    {
+      "dbn": "31R019",
+      "name": "P.S. 019 THE CURTIS SCHOOL"
+    },
+    {
+      "dbn": "01M020",
+      "name": "P.S. 020 ANNA SILVER"
+    },
+    {
+      "dbn": "13K020",
+      "name": "P.S. 020 CLINTON HILL"
+    },
+    {
+      "dbn": "25Q020",
+      "name": "P.S. 020 JOHN BOWNE"
+    },
+    {
+      "dbn": "31R020",
+      "name": "P.S. 020 PORT RICHMOND"
+    },
+    {
+      "dbn": "16K021",
+      "name": "P.S. 021 CRISPUS ATTUCKS"
+    },
+    {
+      "dbn": "25Q021",
+      "name": "P.S. 021 EDWARD HART"
+    },
+    {
+      "dbn": "11X021",
+      "name": "P.S. 021 PHILIP H. SHERIDAN"
+    },
+    {
+      "dbn": "31R022",
+      "name": "P.S. 022 GRANITEVILLE"
+    },
+    {
+      "dbn": "25Q022",
+      "name": "P.S. 022 THOMAS JEFFERSON"
+    },
+    {
+      "dbn": "14K023",
+      "name": "P.S. 023 CARTER G. WOODSON"
+    },
+    {
+      "dbn": "31R023",
+      "name": "P.S. 023 RICHMONDTOWN"
+    },
+    {
+      "dbn": "10X023",
+      "name": "P.S. 023 THE NEW CHILDREN'S SCHOOL"
+    },
+    {
+      "dbn": "15K024",
+      "name": "P.S. 024"
+    },
+    {
+      "dbn": "25Q024",
+      "name": "P.S. 024 ANDREW JACKSON"
+    },
+    {
+      "dbn": "10X024",
+      "name": "P.S. 024 SPUYTEN DUYVIL"
+    },
+    {
+      "dbn": "07X025",
+      "name": "P.S. 025 BILINGUAL SCHOOL"
+    },
+    {
+      "dbn": "16K025",
+      "name": "P.S. 025 EUBIE BLAKE SCHOOL"
+    },
+    {
+      "dbn": "16K026",
+      "name": "P.S. 026 JESSE OWENS"
+    },
+    {
+      "dbn": "26Q026",
+      "name": "P.S. 026 RUFUS KING"
+    },
+    {
+      "dbn": "31R026",
+      "name": "P.S. 026 THE CARTERET SCHOOL"
+    },
+    {
+      "dbn": "09X028",
+      "name": "P.S. 028 MOUNT HOPE"
+    },
+    {
+      "dbn": "06M028",
+      "name": "P.S. 028 WRIGHT BROTHERS"
+    },
+    {
+      "dbn": "31R029",
+      "name": "P.S. 029 BARDWELL"
+    },
+    {
+      "dbn": "15K029",
+      "name": "P.S. 029 JOHN M. HARRIGAN"
+    },
+    {
+      "dbn": "25Q029",
+      "name": "P.S. 029 QUEENS"
+    },
+    {
+      "dbn": "05M030",
+      "name": "P.S. 030 HERNANDEZ/HUGHES"
+    },
+    {
+      "dbn": "31R030",
+      "name": "P.S. 030 WESTERLEIGH"
+    },
+    {
+      "dbn": "07X030",
+      "name": "P.S. 030 WILTON"
+    },
+    {
+      "dbn": "26Q031",
+      "name": "P.S. 031 BAYSIDE"
+    },
+    {
+      "dbn": "14K031",
+      "name": "P.S. 031 SAMUEL F. DUPONT"
+    },
+    {
+      "dbn": "31R031",
+      "name": "P.S. 031 WILLIAM T. DAVIS"
+    },
+    {
+      "dbn": "10X032",
+      "name": "P.S. 032 BELMONT"
+    },
+    {
+      "dbn": "15K032",
+      "name": "P.S. 032 SAMUEL MILLS SPROLE"
+    },
+    {
+      "dbn": "25Q032",
+      "name": "P.S. 032 STATE STREET"
+    },
+    {
+      "dbn": "31R032",
+      "name": "P.S. 032 THE GIFFORD SCHOOL"
+    },
+    {
+      "dbn": "02M033",
+      "name": "P.S. 033 CHELSEA PREP"
+    },
+    {
+      "dbn": "29Q033",
+      "name": "P.S. 033 EDWARD M. FUNK"
+    },
+    {
+      "dbn": "10X033",
+      "name": "P.S. 033 TIMOTHY DWIGHT"
+    },
+    {
+      "dbn": "01M034",
+      "name": "P.S. 034 FRANKLIN D. ROOSEVELT"
+    },
+    {
+      "dbn": "29Q034",
+      "name": "P.S. 034 JOHN HARVARD"
+    },
+    {
+      "dbn": "14K034",
+      "name": "P.S. 034 OLIVER H. PERRY"
+    },
+    {
+      "dbn": "09X035",
+      "name": "P.S. 035 FRANZ SIEGEL"
+    },
+    {
+      "dbn": "29Q035",
+      "name": "P.S. 035 NATHANIEL WOODHULL"
+    },
+    {
+      "dbn": "31R036",
+      "name": "P.S. 036 J. C. DRUMGOOLE"
+    },
+    {
+      "dbn": "05M036",
+      "name": "P.S. 036 MARGARET DOUGLAS"
+    },
+    {
+      "dbn": "29Q036",
+      "name": "P.S. 036 SAINT ALBANS SCHOOL"
+    },
+    {
+      "dbn": "08X036",
+      "name": "P.S. 036 UNIONPORT"
+    },
+    {
+      "dbn": "31R038",
+      "name": "P.S. 038 GEORGE CROMWELL"
+    },
+    {
+      "dbn": "29Q038",
+      "name": "P.S. 038 ROSEDALE"
+    },
+    {
+      "dbn": "15K038",
+      "name": "P.S. 038 THE PACIFIC"
+    },
+    {
+      "dbn": "15K039",
+      "name": "P.S. 039 HENRY BRISTOW"
+    },
+    {
+      "dbn": "02M040",
+      "name": "P.S. 040 AUGUSTUS SAINT-GAUDENS"
+    },
+    {
+      "dbn": "16K040",
+      "name": "P.S. 040 GEORGE W. CARVER"
+    },
+    {
+      "dbn": "28Q040",
+      "name": "P.S. 040 SAMUEL HUNTINGTON"
+    },
+    {
+      "dbn": "26Q041",
+      "name": "P.S. 041 CROCHERON"
+    },
+    {
+      "dbn": "23K041",
+      "name": "P.S. 041 FRANCIS WHITE"
+    },
+    {
+      "dbn": "02M041",
+      "name": "P.S. 041 GREENWICH VILLAGE"
+    },
+    {
+      "dbn": "11X041",
+      "name": "P.S. 041 GUN HILL ROAD"
+    },
+    {
+      "dbn": "02M042",
+      "name": "P.S. 042 BENJAMIN ALTMAN"
+    },
+    {
+      "dbn": "09X042",
+      "name": "P.S. 042 CLAREMONT"
+    },
+    {
+      "dbn": "31R042",
+      "name": "P.S. 042 ELTINGVILLE"
+    },
+    {
+      "dbn": "27Q043",
+      "name": "P.S. 043"
+    },
+    {
+      "dbn": "07X043",
+      "name": "P.S. 043 JONAS BRONCK"
+    },
+    {
+      "dbn": "12X044",
+      "name": "P.S. 044 DAVID C. FARRAGUT"
+    },
+    {
+      "dbn": "13K044",
+      "name": "P.S. 044 MARCUS GARVEY"
+    },
+    {
+      "dbn": "31R044",
+      "name": "P.S. 044 THOMAS C. BROWN"
+    },
+    {
+      "dbn": "27Q045",
+      "name": "P.S. 045 CLARENCE WITHERSPOON"
+    },
+    {
+      "dbn": "31R045",
+      "name": "P.S. 045 JOHN TYLER"
+    },
+    {
+      "dbn": "31R046",
+      "name": "P.S. 046 ALBERT V. MANISCALCO"
+    },
+    {
+      "dbn": "26Q046",
+      "name": "P.S. 046 ALLEY POND"
+    },
+    {
+      "dbn": "05M046",
+      "name": "P.S. 046 ARTHUR TAPPAN"
+    },
+    {
+      "dbn": "10X046",
+      "name": "P.S. 046 EDGAR ALLAN POE"
+    },
+    {
+      "dbn": "13K046",
+      "name": "P.S. 046 EDWARD C. BLUM"
+    },
+    {
+      "dbn": "27Q047",
+      "name": "P.S. 047 CHRIS GALAS"
+    },
+    {
+      "dbn": "12X047",
+      "name": "P.S. 047 JOHN RANDOLPH"
+    },
+    {
+      "dbn": "08X048",
+      "name": "P.S. 048 JOSEPH R. DRAKE"
+    },
+    {
+      "dbn": "20K048",
+      "name": "P.S. 048 MAPLETON"
+    },
+    {
+      "dbn": "06M048",
+      "name": "P.S. 048 P.O. MICHAEL J. BUCZEK"
+    },
+    {
+      "dbn": "31R048",
+      "name": "P.S. 048 WILLIAM G. WILCOX"
+    },
+    {
+      "dbn": "24Q049",
+      "name": "P.S. 049 DOROTHY BONAWIT KOLE"
+    },
+    {
+      "dbn": "07X049",
+      "name": "P.S. 049 WILLIS AVENUE"
+    },
+    {
+      "dbn": "31R050",
+      "name": "P.S. 050 FRANK HANKINSON"
+    },
+    {
+      "dbn": "28Q050",
+      "name": "P.S. 050 TALFOURD LAWN ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "02M051",
+      "name": "P.S. 051 ELIAS HOWE"
+    },
+    {
+      "dbn": "31R052",
+      "name": "P.S. 052 JOHN C. THOMPSON"
+    },
+    {
+      "dbn": "29Q052",
+      "name": "P.S. 052 QUEENS"
+    },
+    {
+      "dbn": "22K052",
+      "name": "P.S. 052 SHEEPSHEAD BAY"
+    },
+    {
+      "dbn": "09X053",
+      "name": "P.S. 053 BASHEER QUISIM"
+    },
+    {
+      "dbn": "31R054",
+      "name": "P.S. 054 CHARLES W. LENG"
+    },
+    {
+      "dbn": "28Q054",
+      "name": "P.S. 054 HILLSIDE"
+    },
+    {
+      "dbn": "09X055",
+      "name": "P.S. 055 BENJAMIN FRANKLIN"
+    },
+    {
+      "dbn": "31R055",
+      "name": "P.S. 055 HENRY M. BOEHM"
+    },
+    {
+      "dbn": "28Q055",
+      "name": "P.S. 055 MAURE"
+    },
+    {
+      "dbn": "27Q056",
+      "name": "P.S. 056 HARRY EICHLER"
+    },
+    {
+      "dbn": "13K056",
+      "name": "P.S. 056 LEWIS H. LATIMER"
+    },
+    {
+      "dbn": "10X056",
+      "name": "P.S. 056 NORWOOD HEIGHTS"
+    },
+    {
+      "dbn": "12X057",
+      "name": "P.S. 057 CRESCENT"
+    },
+    {
+      "dbn": "31R057",
+      "name": "P.S. 057 HUBERT H. HUMPHREY"
+    },
+    {
+      "dbn": "09X058",
+      "name": "P.S. 058"
+    },
+    {
+      "dbn": "15K058",
+      "name": "P.S. 058 THE CARROLL"
+    },
+    {
+      "dbn": "02M059",
+      "name": "P.S. 059 BEEKMAN HILL INTERNATIONAL"
+    },
+    {
+      "dbn": "10X059",
+      "name": "P.S. 059 THE COMMUNITY SCHOOL OF TECHNOLOGY"
+    },
+    {
+      "dbn": "14K059",
+      "name": "P.S. 059 THE DAWN BEST SCHOOL"
+    },
+    {
+      "dbn": "31R060",
+      "name": "P.S. 060 ALICE AUSTEN"
+    },
+    {
+      "dbn": "27Q060",
+      "name": "P.S. 060 WOODHAVEN"
+    },
+    {
+      "dbn": "12X061",
+      "name": "P.S. 061 FRANCISCO OLLER"
+    },
+    {
+      "dbn": "08X062",
+      "name": "P.S. 062 INOCENSIO CASANOVA"
+    },
+    {
+      "dbn": "09X063",
+      "name": "P.S. 063 AUTHOR'S ACADEMY"
+    },
+    {
+      "dbn": "27Q063",
+      "name": "P.S. 063 OLD SOUTH"
+    },
+    {
+      "dbn": "27Q064",
+      "name": "P.S. 064 JOSEPH P. ADDABBO"
+    },
+    {
+      "dbn": "01M064",
+      "name": "P.S. 064 ROBERT SIMON"
+    },
+    {
+      "dbn": "19K065",
+      "name": "P.S. 065"
+    },
+    {
+      "dbn": "07X065",
+      "name": "P.S. 065 MOTHER HALE ACADEMY"
+    },
+    {
+      "dbn": "27Q066",
+      "name": "P.S. 066 JACQUELINE KENNEDY ONASSIS"
+    },
+    {
+      "dbn": "12X066",
+      "name": "P.S. 066 SCHOOL OF HIGHER EXPECTATIONS"
+    },
+    {
+      "dbn": "13K067",
+      "name": "P.S. 067 CHARLES A. DORSEY"
+    },
+    {
+      "dbn": "12X067",
+      "name": "P.S. 067 MOHEGAN SCHOOL"
+    },
+    {
+      "dbn": "11X068",
+      "name": "P.S. 068 BRONX"
+    },
+    {
+      "dbn": "24Q068",
+      "name": "P.S. 068 CAMBRIDGE"
+    },
+    {
+      "dbn": "31R069",
+      "name": "P.S. 069 DANIEL D. TOMPKINS"
+    },
+    {
+      "dbn": "30Q069",
+      "name": "P.S. 069 JACKSON HEIGHTS"
+    },
+    {
+      "dbn": "08X069",
+      "name": "P.S. 069 JOURNEY PREP SCHOOL"
+    },
+    {
+      "dbn": "30Q070",
+      "name": "P.S. 070"
+    },
+    {
+      "dbn": "09X070",
+      "name": "P.S. 070 MAX SCHOENFELD"
+    },
+    {
+      "dbn": "24Q071",
+      "name": "P.S. 071 FOREST"
+    },
+    {
+      "dbn": "08X071",
+      "name": "P.S. 071 ROSE E. SCALA"
+    },
+    {
+      "dbn": "08X072",
+      "name": "P.S. 072 DR. WILLIAM DORNEY"
+    },
+    {
+      "dbn": "09X073",
+      "name": "P.S. 073 BRONX"
+    },
+    {
+      "dbn": "03M075",
+      "name": "P.S. 075 EMILY DICKINSON"
+    },
+    {
+      "dbn": "32K075",
+      "name": "P.S. 075 MAYDA CORTIELLA"
+    },
+    {
+      "dbn": "03M076",
+      "name": "P.S. 076 A. PHILIP RANDOLPH"
+    },
+    {
+      "dbn": "11X076",
+      "name": "P.S. 076 THE BENNINGTON SCHOOL"
+    },
+    {
+      "dbn": "30Q076",
+      "name": "P.S. 076 WILLIAM HALLET"
+    },
+    {
+      "dbn": "11X078",
+      "name": "P.S. 078 ANNE HUTCHINSON"
+    },
+    {
+      "dbn": "25Q079",
+      "name": "P.S. 079 FRANCIS LEWIS"
+    },
+    {
+      "dbn": "10X081",
+      "name": "P.S. 081 ROBERT J. CHRISTEN"
+    },
+    {
+      "dbn": "16K081",
+      "name": "P.S. 081 THADDEUS STEVENS"
+    },
+    {
+      "dbn": "28Q082",
+      "name": "P.S. 082 HAMMOND"
+    },
+    {
+      "dbn": "11X083",
+      "name": "P.S. 083 DONALD HERTZ"
+    },
+    {
+      "dbn": "04M083",
+      "name": "P.S. 083 LUIS MUNOZ RIVERA"
+    },
+    {
+      "dbn": "14K084",
+      "name": "P.S. 084 JOSE DE DIEGO"
+    },
+    {
+      "dbn": "03M084",
+      "name": "P.S. 084 LILLIAN WEBER"
+    },
+    {
+      "dbn": "30Q084",
+      "name": "P.S. 084 STEINWAY"
+    },
+    {
+      "dbn": "10X085",
+      "name": "P.S. 085 GREAT EXPECTATIONS"
+    },
+    {
+      "dbn": "30Q085",
+      "name": "P.S. 085 JUDGE CHARLES VALLONE"
+    },
+    {
+      "dbn": "10X086",
+      "name": "P.S. 086 KINGSBRIDGE HEIGHTS"
+    },
+    {
+      "dbn": "32K086",
+      "name": "P.S. 086 THE IRVINGTON"
+    },
+    {
+      "dbn": "11X087",
+      "name": "P.S. 087 BRONX"
+    },
+    {
+      "dbn": "03M087",
+      "name": "P.S. 087 WILLIAM SHERMAN"
+    },
+    {
+      "dbn": "24Q088",
+      "name": "P.S. 088 SENECA"
+    },
+    {
+      "dbn": "11X089",
+      "name": "P.S. 089 BRONX"
+    },
+    {
+      "dbn": "19K089",
+      "name": "P.S. 089 CYPRESS HILLS"
+    },
+    {
+      "dbn": "27Q090",
+      "name": "P.S. 090 HORACE MANN"
+    },
+    {
+      "dbn": "10X091",
+      "name": "P.S. 091 BRONX"
+    },
+    {
+      "dbn": "24Q091",
+      "name": "P.S. 091 RICHARD ARKWRIGHT"
+    },
+    {
+      "dbn": "17K091",
+      "name": "P.S. 091 THE ALBANY AVENUE SCHOOL"
+    },
+    {
+      "dbn": "17K092",
+      "name": "P.S. 092 ADRIAN HEGEMAN"
+    },
+    {
+      "dbn": "30Q092",
+      "name": "P.S. 092 HARRY T. STEWART SR."
+    },
+    {
+      "dbn": "05M092",
+      "name": "P.S. 092 MARY MCLEOD BETHUNE"
+    },
+    {
+      "dbn": "08X093",
+      "name": "P.S. 093 ALBERT G. OLIVER"
+    },
+    {
+      "dbn": "13K093",
+      "name": "P.S. 093 WILLIAM H. PRESCOTT"
+    },
+    {
+      "dbn": "26Q094",
+      "name": "P.S. 094 DAVID D. PORTER"
+    },
+    {
+      "dbn": "10X094",
+      "name": "P.S. 094 KINGS COLLEGE SCHOOL"
+    },
+    {
+      "dbn": "15K094",
+      "name": "P.S. 094 THE HENRY LONGFELLOW"
+    },
+    {
+      "dbn": "29Q095",
+      "name": "P.S. 095 EASTWOOD"
+    },
+    {
+      "dbn": "10X095",
+      "name": "P.S. 095 SHEILA MENCHER"
+    },
+    {
+      "dbn": "21K095",
+      "name": "P.S. 095 THE GRAVESEND"
+    },
+    {
+      "dbn": "27Q096",
+      "name": "P.S. 096"
+    },
+    {
+      "dbn": "04M096",
+      "name": "P.S. 096 JOSEPH LANZETTA"
+    },
+    {
+      "dbn": "11X096",
+      "name": "P.S. 096 RICHARD RODGERS"
+    },
+    {
+      "dbn": "11X097",
+      "name": "P.S. 097 BRONX"
+    },
+    {
+      "dbn": "27Q097",
+      "name": "P.S. 097 FOREST PARK"
+    },
+    {
+      "dbn": "06M098",
+      "name": "P.S. 098 SHORAC KAPPOCK"
+    },
+    {
+      "dbn": "26Q098",
+      "name": "P.S. 098 THE DOUGLASTON SCHOOL"
+    },
+    {
+      "dbn": "21K099",
+      "name": "P.S. 099 ISAAC ASIMOV"
+    },
+    {
+      "dbn": "28Q099",
+      "name": "P.S. 099 KEW GARDENS"
+    },
+    {
+      "dbn": "27Q100",
+      "name": "P.S. 100 GLEN MORRIS"
+    },
+    {
+      "dbn": "08X100",
+      "name": "P.S. 100 ISAAC CLASON"
+    },
+    {
+      "dbn": "21K100",
+      "name": "P.S. 100 THE CONEY ISLAND SCHOOL"
+    },
+    {
+      "dbn": "28Q101",
+      "name": "P.S. 101 SCHOOL IN THE GARDENS"
+    },
+    {
+      "dbn": "21K101",
+      "name": "P.S. 101 THE VERRAZANO"
+    },
+    {
+      "dbn": "24Q102",
+      "name": "P.S. 102 BAYVIEW"
+    },
+    {
+      "dbn": "04M102",
+      "name": "P.S. 102 JACQUES CARTIER"
+    },
+    {
+      "dbn": "20K102",
+      "name": "P.S. 102 THE BAYVIEW"
+    },
+    {
+      "dbn": "11X103",
+      "name": "P.S. 103 HECTOR FONTANEZ"
+    },
+    {
+      "dbn": "27Q104",
+      "name": "P.S. 104 THE BAYS WATER"
+    },
+    {
+      "dbn": "11X105",
+      "name": "P.S. 105 SEN ABRAHAM BERNSTEIN"
+    },
+    {
+      "dbn": "27Q105",
+      "name": "P.S. 105 THE BAY SCHOOL"
+    },
+    {
+      "dbn": "20K105",
+      "name": "P.S. 105 THE BLYTHEBOURNE"
+    },
+    {
+      "dbn": "32K106",
+      "name": "P.S. 106 EDWARD EVERETT HALE"
+    },
+    {
+      "dbn": "11X106",
+      "name": "P.S. 106 PARKCHESTER"
+    },
+    {
+      "dbn": "08X107",
+      "name": "P.S. 107"
+    },
+    {
+      "dbn": "15K107",
+      "name": "P.S. 107 JOHN W. KIMBALL"
+    },
+    {
+      "dbn": "25Q107",
+      "name": "P.S. 107 THOMAS A DOOLEY"
+    },
+    {
+      "dbn": "04M108",
+      "name": "P.S. 108 ASSEMBLYMAN ANGELO DEL TORO EDUCATIONAL C"
+    },
+    {
+      "dbn": "27Q108",
+      "name": "P.S. 108 CAPTAIN VINCENT G. FOWLER"
+    },
+    {
+      "dbn": "11X108",
+      "name": "P.S. 108 PHILIP J. ABINANTI"
+    },
+    {
+      "dbn": "19K108",
+      "name": "P.S. 108 SAL ABBRACCIAMENTO"
+    },
+    {
+      "dbn": "22K109",
+      "name": "P.S. 109"
+    },
+    {
+      "dbn": "09X109",
+      "name": "P.S. 109 SEDGWICK"
+    },
+    {
+      "dbn": "31R011",
+      "name": "P.S. 11 THOMAS DONGAN SCHOOL"
+    },
+    {
+      "dbn": "24Q110",
+      "name": "P.S. 110"
+    },
+    {
+      "dbn": "01M110",
+      "name": "P.S. 110 FLORENCE NIGHTINGALE"
+    },
+    {
+      "dbn": "14K110",
+      "name": "P.S. 110 THE MONITOR"
+    },
+    {
+      "dbn": "09X110",
+      "name": "P.S. 110 THEODORE SCHOENFELD"
+    },
+    {
+      "dbn": "02M111",
+      "name": "P.S. 111 ADOLPH S. OCHS"
+    },
+    {
+      "dbn": "30Q111",
+      "name": "P.S. 111 JACOB BLACKWELL"
+    },
+    {
+      "dbn": "11X111",
+      "name": "P.S. 111 SETON FALLS"
+    },
+    {
+      "dbn": "11X112",
+      "name": "P.S. 112 BRONXWOOD"
+    },
+    {
+      "dbn": "30Q112",
+      "name": "P.S. 112 DUTCH KILLS"
+    },
+    {
+      "dbn": "20K112",
+      "name": "P.S. 112 LEFFERTS PARK"
+    },
+    {
+      "dbn": "18K114",
+      "name": "P.S. 114 RYDER ELEMENTARY"
+    },
+    {
+      "dbn": "06M115",
+      "name": "P.S. 115 ALEXANDER HUMBOLDT"
+    },
+    {
+      "dbn": "18K115",
+      "name": "P.S. 115 DANIEL MUCATEL SCHOOL"
+    },
+    {
+      "dbn": "32K116",
+      "name": "P.S. 116 ELIZABETH L FARRELL"
+    },
+    {
+      "dbn": "02M116",
+      "name": "P.S. 116 MARY LINDLEY MURRAY"
+    },
+    {
+      "dbn": "28Q117",
+      "name": "P.S. 117 J. KELD / BRIARWOOD SCHOOL"
+    },
+    {
+      "dbn": "29Q118",
+      "name": "P.S. 118 LORRAINE HANSBERRY"
+    },
+    {
+      "dbn": "22K119",
+      "name": "P.S. 119 AMERSFORT"
+    },
+    {
+      "dbn": "14K120",
+      "name": "P.S. 120 CARLOS TAPIA"
+    },
+    {
+      "dbn": "25Q120",
+      "name": "P.S. 120 QUEENS"
+    },
+    {
+      "dbn": "21K121",
+      "name": "P.S. 121 NELSON A. ROCKEFELLER"
+    },
+    {
+      "dbn": "28Q121",
+      "name": "P.S. 121 QUEENS"
+    },
+    {
+      "dbn": "11X121",
+      "name": "P.S. 121 THROOP"
+    },
+    {
+      "dbn": "30Q122",
+      "name": "P.S. 122 MAMIE FAY"
+    },
+    {
+      "dbn": "27Q123",
+      "name": "P.S. 123"
+    },
+    {
+      "dbn": "05M123",
+      "name": "P.S. 123 MAHALIA JACKSON"
+    },
+    {
+      "dbn": "32K123",
+      "name": "P.S. 123 SUYDAM"
+    },
+    {
+      "dbn": "27Q124",
+      "name": "P.S. 124 OSMOND A CHURCH"
+    },
+    {
+      "dbn": "15K124",
+      "name": "P.S. 124 SILAS B. DUTCHER"
+    },
+    {
+      "dbn": "02M124",
+      "name": "P.S. 124 YUNG WING"
+    },
+    {
+      "dbn": "05M125",
+      "name": "P.S. 125 RALPH BUNCHE"
+    },
+    {
+      "dbn": "09X126",
+      "name": "P.S. 126 DR MARJORIE H DUNBAR"
+    },
+    {
+      "dbn": "02M126",
+      "name": "P.S. 126 JACOB AUGUST RIIS"
+    },
+    {
+      "dbn": "30Q127",
+      "name": "P.S. 127 AEROSPACE SCIENCE MAGNET SCHOOL"
+    },
+    {
+      "dbn": "20K127",
+      "name": "P.S. 127 MCKINLEY PARK"
+    },
+    {
+      "dbn": "06M128",
+      "name": "P.S. 128 AUDUBON"
+    },
+    {
+      "dbn": "21K128",
+      "name": "P.S. 128 BENSONHURST"
+    },
+    {
+      "dbn": "24Q128",
+      "name": "P.S. 128 THE LORRAINE TUZZO, JUNIPER VALLEY ELEMEN"
+    },
+    {
+      "dbn": "05M129",
+      "name": "P.S. 129 JOHN H. FINLEY"
+    },
+    {
+      "dbn": "25Q129",
+      "name": "P.S. 129 PATRICIA LARKIN"
+    },
+    {
+      "dbn": "25Q130",
+      "name": "P.S. 130"
+    },
+    {
+      "dbn": "08X130",
+      "name": "P.S. 130 ABRAM STEVENS HEWITT"
+    },
+    {
+      "dbn": "02M130",
+      "name": "P.S. 130 HERNANDO DE SOTO"
+    },
+    {
+      "dbn": "15K130",
+      "name": "P.S. 130 THE PARKSIDE"
+    },
+    {
+      "dbn": "29Q131",
+      "name": "P.S. 131 ABIGAIL ADAMS"
+    },
+    {
+      "dbn": "15K131",
+      "name": "P.S. 131 BROOKLYN"
+    },
+    {
+      "dbn": "09X132",
+      "name": "P.S. 132 GARRET A. MORGAN"
+    },
+    {
+      "dbn": "06M132",
+      "name": "P.S. 132 JUAN PABLO DUARTE"
+    },
+    {
+      "dbn": "29Q132",
+      "name": "P.S. 132 RALPH BUNCHE"
+    },
+    {
+      "dbn": "14K132",
+      "name": "P.S. 132 THE CONSELYEA SCHOOL"
+    },
+    {
+      "dbn": "05M133",
+      "name": "P.S. 133 FRED R MOORE"
+    },
+    {
+      "dbn": "26Q133",
+      "name": "P.S. 133 THE BELLEROSE SCHOOL OF EXCELLENCE"
+    },
+    {
+      "dbn": "13K133",
+      "name": "P.S. 133 WILLIAM A. BUTLER"
+    },
+    {
+      "dbn": "12X134",
+      "name": "P.S. 134 GEORGE F. BRISTOW"
+    },
+    {
+      "dbn": "01M134",
+      "name": "P.S. 134 HENRIETTA SZOLD"
+    },
+    {
+      "dbn": "29Q134",
+      "name": "P.S. 134 HOLLIS"
+    },
+    {
+      "dbn": "18K135",
+      "name": "P.S. 135 SHELDON A. BROOKNER"
+    },
+    {
+      "dbn": "29Q136",
+      "name": "P.S. 136 ROY WILKINS"
+    },
+    {
+      "dbn": "23K137",
+      "name": "P.S. 137 RACHEL JEAN MITCHELL"
+    },
+    {
+      "dbn": "17K138",
+      "name": "P.S. 138 BROOKLYN"
+    },
+    {
+      "dbn": "08X138",
+      "name": "P.S. 138 SAMUEL RANDALL"
+    },
+    {
+      "dbn": "22K139",
+      "name": "P.S. 139 ALEXINE A. FENTY"
+    },
+    {
+      "dbn": "28Q139",
+      "name": "P.S. 139 REGO PARK"
+    },
+    {
+      "dbn": "28Q140",
+      "name": "P.S. 140 EDWARD K ELLINGTON"
+    },
+    {
+      "dbn": "01M140",
+      "name": "P.S. 140 NATHAN STRAUS"
+    },
+    {
+      "dbn": "01M142",
+      "name": "P.S. 142 AMALIA CASTRO"
+    },
+    {
+      "dbn": "24Q143",
+      "name": "P.S. 143 LOUIS ARMSTRONG"
+    },
+    {
+      "dbn": "28Q144",
+      "name": "P.S. 144 COL JEROMUS REMSEN"
+    },
+    {
+      "dbn": "32K145",
+      "name": "P.S. 145 ANDREW JACKSON"
+    },
+    {
+      "dbn": "03M145",
+      "name": "P.S. 145, THE BLOOMINGDALE SCHOOL"
+    },
+    {
+      "dbn": "04M146",
+      "name": "P.S. 146 ANN M. SHORT"
+    },
+    {
+      "dbn": "08X146",
+      "name": "P.S. 146 EDWARD COLLINS"
+    },
+    {
+      "dbn": "27Q146",
+      "name": "P.S. 146 HOWARD BEACH"
+    },
+    {
+      "dbn": "14K147",
+      "name": "P.S. 147 ISAAC REMSEN"
+    },
+    {
+      "dbn": "30Q148",
+      "name": "P.S. 148 QUEENS"
+    },
+    {
+      "dbn": "30Q149",
+      "name": "P.S. 149 CHRISTA MCAULIFFE"
+    },
+    {
+      "dbn": "19K149",
+      "name": "P.S. 149 DANNY KAYE"
+    },
+    {
+      "dbn": "03M149",
+      "name": "P.S. 149 SOJOURNER TRUTH"
+    },
+    {
+      "dbn": "02M150",
+      "name": "P.S. 150"
+    },
+    {
+      "dbn": "12X150",
+      "name": "P.S. 150 CHARLES JAMES FOX"
+    },
+    {
+      "dbn": "23K150",
+      "name": "P.S. 150 CHRISTOPHER"
+    },
+    {
+      "dbn": "30Q150",
+      "name": "P.S. 150 QUEENS"
+    },
+    {
+      "dbn": "32K151",
+      "name": "P.S. 151 LYNDON B. JOHNSON"
+    },
+    {
+      "dbn": "30Q151",
+      "name": "P.S. 151 MARY D. CARTER"
+    },
+    {
+      "dbn": "06M152",
+      "name": "P.S. 152 DYCKMAN VALLEY"
+    },
+    {
+      "dbn": "08X152",
+      "name": "P.S. 152 EVERGREEN"
+    },
+    {
+      "dbn": "30Q152",
+      "name": "P.S. 152 GWENDOLINE N. ALLEYNE SCHOOL"
+    },
+    {
+      "dbn": "06M153",
+      "name": "P.S. 153 ADAM CLAYTON POWELL"
+    },
+    {
+      "dbn": "11X153",
+      "name": "P.S. 153 HELEN KELLER"
+    },
+    {
+      "dbn": "21K153",
+      "name": "P.S. 153 HOMECREST"
+    },
+    {
+      "dbn": "24Q153",
+      "name": "P.S. 153 MASPETH ELEM"
+    },
+    {
+      "dbn": "05M154",
+      "name": "P.S. 154 HARRIET TUBMAN"
+    },
+    {
+      "dbn": "07X154",
+      "name": "P.S. 154 JONATHAN D. HYATT"
+    },
+    {
+      "dbn": "25Q154",
+      "name": "P.S. 154 QUEENS"
+    },
+    {
+      "dbn": "27Q155",
+      "name": "P.S. 155"
+    },
+    {
+      "dbn": "04M155",
+      "name": "P.S. 155 WILLIAM PACA"
+    },
+    {
+      "dbn": "29Q156",
+      "name": "P.S. 156 LAURELTON"
+    },
+    {
+      "dbn": "23K156",
+      "name": "P.S. 156 WAVERLY"
+    },
+    {
+      "dbn": "07X157",
+      "name": "P.S. 157 GROVE HILL"
+    },
+    {
+      "dbn": "02M158",
+      "name": "P.S. 158 BAYARD TAYLOR"
+    },
+    {
+      "dbn": "19K158",
+      "name": "P.S. 158 WARWICK"
+    },
+    {
+      "dbn": "26Q159",
+      "name": "P.S. 159"
+    },
+    {
+      "dbn": "19K159",
+      "name": "P.S. 159 ISAAC PITKIN"
+    },
+    {
+      "dbn": "10X159",
+      "name": "P.S. 159 LUIS MUNOZ MARIN BILING"
+    },
+    {
+      "dbn": "11X160",
+      "name": "P.S. 160 WALT DISNEY"
+    },
+    {
+      "dbn": "28Q160",
+      "name": "P.S. 160 WALTER FRANCIS BISHOP"
+    },
+    {
+      "dbn": "20K160",
+      "name": "P.S. 160 WILLIAM T. SAMPSON"
+    },
+    {
+      "dbn": "28Q161",
+      "name": "P.S. 161 ARTHUR ASHE SCHOOL"
+    },
+    {
+      "dbn": "07X161",
+      "name": "P.S. 161 JUAN PONCE DE LEON SCHOOL"
+    },
+    {
+      "dbn": "05M161",
+      "name": "P.S. 161 PEDRO ALBIZU CAMPOS"
+    },
+    {
+      "dbn": "17K161",
+      "name": "P.S. 161 THE CROWN"
+    },
+    {
+      "dbn": "26Q162",
+      "name": "P.S. 162 JOHN GOLDEN"
+    },
+    {
+      "dbn": "03M163",
+      "name": "P.S. 163 ALFRED E. SMITH"
+    },
+    {
+      "dbn": "09X163",
+      "name": "P.S. 163 ARTHUR A. SCHOMBURG"
+    },
+    {
+      "dbn": "20K163",
+      "name": "P.S. 163 BATH BEACH"
+    },
+    {
+      "dbn": "25Q163",
+      "name": "P.S. 163 FLUSHING HEIGHTS"
+    },
+    {
+      "dbn": "20K164",
+      "name": "P.S. 164 CAESAR RODNEY"
+    },
+    {
+      "dbn": "25Q164",
+      "name": "P.S. 164 QUEENS VALLEY"
+    },
+    {
+      "dbn": "25Q165",
+      "name": "P.S. 165 EDITH K. BERGTRAUM"
+    },
+    {
+      "dbn": "23K165",
+      "name": "P.S. 165 IDA POSNER"
+    },
+    {
+      "dbn": "03M165",
+      "name": "P.S. 165 ROBERT E. SIMON"
+    },
+    {
+      "dbn": "30Q166",
+      "name": "P.S. 166 HENRY GRADSTEIN"
+    },
+    {
+      "dbn": "03M166",
+      "name": "P.S. 166 THE RICHARD RODGERS SCHOOL OF THE ARTS AN"
+    },
+    {
+      "dbn": "25Q169",
+      "name": "P.S. 169 BAY TERRACE"
+    },
+    {
+      "dbn": "15K169",
+      "name": "P.S. 169 SUNSET PARK"
+    },
+    {
+      "dbn": "04M171",
+      "name": "P.S. 171 PATRICK HENRY"
+    },
+    {
+      "dbn": "30Q171",
+      "name": "P.S. 171 PETER G. VAN ALST"
+    },
+    {
+      "dbn": "15K172",
+      "name": "P.S. 172 BEACON SCHOOL OF EXCELLENCE"
+    },
+    {
+      "dbn": "06M173",
+      "name": "P.S. 173"
+    },
+    {
+      "dbn": "26Q173",
+      "name": "P.S. 173 FRESH MEADOWS"
+    },
+    {
+      "dbn": "28Q174",
+      "name": "P.S. 174 WILLIAM SIDNEY MOUNT"
+    },
+    {
+      "dbn": "11X175",
+      "name": "P.S. 175 CITY ISLAND"
+    },
+    {
+      "dbn": "05M175",
+      "name": "P.S. 175 HENRY H GARNET"
+    },
+    {
+      "dbn": "28Q175",
+      "name": "P.S. 175 THE LYNN GROSS DISCOVERY SCHOOL"
+    },
+    {
+      "dbn": "29Q176",
+      "name": "P.S. 176 CAMBRIA HEIGHTS"
+    },
+    {
+      "dbn": "20K176",
+      "name": "P.S. 176 OVINGTON"
+    },
+    {
+      "dbn": "21K177",
+      "name": "P.S. 177 THE MARLBORO"
+    },
+    {
+      "dbn": "11X178",
+      "name": "P.S. 178 - DR. SELMAN WAKSMAN"
+    },
+    {
+      "dbn": "23K178",
+      "name": "P.S. 178 SAINT CLAIR MCKELWAY"
+    },
+    {
+      "dbn": "07X179",
+      "name": "P.S. 179"
+    },
+    {
+      "dbn": "20K179",
+      "name": "P.S. 179 KENSINGTON"
+    },
+    {
+      "dbn": "03M180",
+      "name": "P.S. 180 HUGO NEWMAN"
+    },
+    {
+      "dbn": "29Q181",
+      "name": "P.S. 181 BROOKFIELD"
+    },
+    {
+      "dbn": "17K181",
+      "name": "P.S. 181 BROOKLYN"
+    },
+    {
+      "dbn": "08X182",
+      "name": "P.S. 182"
+    },
+    {
+      "dbn": "28Q182",
+      "name": "P.S. 182 SAMANTHA SMITH"
+    },
+    {
+      "dbn": "27Q183",
+      "name": "P.S. 183 DR. RICHARD R. GREEN"
+    },
+    {
+      "dbn": "02M183",
+      "name": "P.S. 183 ROBERT L. STEVENSON"
+    },
+    {
+      "dbn": "25Q184",
+      "name": "P.S. 184 FLUSHING MANOR"
+    },
+    {
+      "dbn": "23K184",
+      "name": "P.S. 184 NEWPORT"
+    },
+    {
+      "dbn": "01M184",
+      "name": "P.S. 184M SHUANG WEN"
+    },
+    {
+      "dbn": "20K185",
+      "name": "P.S. 185 WALTER KASSENBROCK"
+    },
+    {
+      "dbn": "26Q186",
+      "name": "P.S. 186 CASTLEWOOD"
+    },
+    {
+      "dbn": "20K186",
+      "name": "P.S. 186 DR. IRVING A GLADSTONE"
+    },
+    {
+      "dbn": "26Q188",
+      "name": "P.S. 188 KINGSBURY"
+    },
+    {
+      "dbn": "21K188",
+      "name": "P.S. 188 MICHAEL E. BERDY"
+    },
+    {
+      "dbn": "01M188",
+      "name": "P.S. 188 THE ISLAND SCHOOL"
+    },
+    {
+      "dbn": "06M189",
+      "name": "P.S. 189"
+    },
+    {
+      "dbn": "17K189",
+      "name": "P.S. 189 THE BILINGUAL CENTER"
+    },
+    {
+      "dbn": "19K190",
+      "name": "P.S. 190 SHEFFIELD"
+    },
+    {
+      "dbn": "26Q191",
+      "name": "P.S. 191 MAYFLOWER"
+    },
+    {
+      "dbn": "17K191",
+      "name": "P.S. 191 PAUL ROBESON"
+    },
+    {
+      "dbn": "20K192",
+      "name": "P.S. 192 - THE MAGNET SCHOOL FOR MATH AND SCIENCE"
+    },
+    {
+      "dbn": "06M192",
+      "name": "P.S. 192 JACOB H. SCHIFF"
+    },
+    {
+      "dbn": "25Q193",
+      "name": "P.S. 193 ALFRED J. KENNEDY"
+    },
+    {
+      "dbn": "22K193",
+      "name": "P.S. 193 GIL HODGES"
+    },
+    {
+      "dbn": "05M194",
+      "name": "P.S. 194 COUNTEE CULLEN"
+    },
+    {
+      "dbn": "22K194",
+      "name": "P.S. 194 RAOUL WALLENBERG"
+    },
+    {
+      "dbn": "12X195",
+      "name": "P.S. 195"
+    },
+    {
+      "dbn": "22K195",
+      "name": "P.S. 195 MANHATTAN BEACH"
+    },
+    {
+      "dbn": "29Q195",
+      "name": "P.S. 195 WILLIAM HABERLE"
+    },
+    {
+      "dbn": "12X196",
+      "name": "P.S. 196"
+    },
+    {
+      "dbn": "28Q196",
+      "name": "P.S. 196 GRAND CENTRAL PARKWAY"
+    },
+    {
+      "dbn": "14K196",
+      "name": "P.S. 196 TEN EYCK"
+    },
+    {
+      "dbn": "22K197",
+      "name": "P.S. 197 - THE KINGS HIGHWAY ACADEMY"
+    },
+    {
+      "dbn": "05M197",
+      "name": "P.S. 197 JOHN B. RUSSWURM"
+    },
+    {
+      "dbn": "27Q197",
+      "name": "P.S. 197 THE OCEAN SCHOOL"
+    },
+    {
+      "dbn": "22K198",
+      "name": "P.S. 198 BROOKLYN"
+    },
+    {
+      "dbn": "02M198",
+      "name": "P.S. 198 ISIDOR E. IDA STRAUS"
+    },
+    {
+      "dbn": "21K199",
+      "name": "P.S. 199 FREDERICK WACHTEL"
+    },
+    {
+      "dbn": "03M199",
+      "name": "P.S. 199 JESSIE ISADOR STRAUS"
+    },
+    {
+      "dbn": "24Q199",
+      "name": "P.S. 199 MAURICE A. FITZGERALD"
+    },
+    {
+      "dbn": "09X199",
+      "name": "P.S. 199X - THE SHAKESPEARE SCHOOL"
+    },
+    {
+      "dbn": "20K200",
+      "name": "P.S. 200 BENSON SCHOOL"
+    },
+    {
+      "dbn": "05M200",
+      "name": "P.S. 200- THE JAMES MCCUNE SMITH SCHOOL"
+    },
+    {
+      "dbn": "25Q201",
+      "name": "P.S. 201 THE DISCOVERY SCHOOL FOR INQUIRY AND RESE"
+    },
+    {
+      "dbn": "19K202",
+      "name": "P.S. 202 ERNEST S. JENKYNS"
+    },
+    {
+      "dbn": "22K203",
+      "name": "P.S. 203 FLOYD BENNETT SCHOOL"
+    },
+    {
+      "dbn": "26Q203",
+      "name": "P.S. 203 OAKLAND GARDENS"
+    },
+    {
+      "dbn": "09X204",
+      "name": "P.S. 204 MORRIS HEIGHTS"
+    },
+    {
+      "dbn": "20K204",
+      "name": "P.S. 204 VINCE LOMBARDI"
+    },
+    {
+      "dbn": "26Q205",
+      "name": "P.S. 205 ALEXANDER GRAHAM BELL"
+    },
+    {
+      "dbn": "20K205",
+      "name": "P.S. 205 CLARION"
+    },
+    {
+      "dbn": "10X205",
+      "name": "P.S. 205 FIORELLO LAGUARDIA"
+    },
+    {
+      "dbn": "04M206",
+      "name": "P.S. 206 JOSE CELSO BARBOSA"
+    },
+    {
+      "dbn": "22K206",
+      "name": "P.S. 206 JOSEPH F LAMB"
+    },
+    {
+      "dbn": "28Q206",
+      "name": "P.S. 206 THE HORACE HARDING SCHOOL"
+    },
+    {
+      "dbn": "10X207",
+      "name": "P.S. 207"
+    },
+    {
+      "dbn": "22K207",
+      "name": "P.S. 207 ELIZABETH G. LEARY"
+    },
+    {
+      "dbn": "27Q207",
+      "name": "P.S. 207 ROCKWOOD PARK"
+    },
+    {
+      "dbn": "18K208",
+      "name": "P.S. 208 ELSA EBELING"
+    },
+    {
+      "dbn": "25Q209",
+      "name": "P.S. 209 CLEARVIEW GARDENS"
+    },
+    {
+      "dbn": "21K209",
+      "name": "P.S. 209 MARGARET MEAD"
+    },
+    {
+      "dbn": "31R021",
+      "name": "P.S. 21 MARGARET EMERY-ELM PARK"
+    },
+    {
+      "dbn": "12X211",
+      "name": "P.S. 211"
+    },
+    {
+      "dbn": "30Q212",
+      "name": "P.S. 212"
+    },
+    {
+      "dbn": "21K212",
+      "name": "P.S. 212 LADY DEBORAH MOODY"
+    },
+    {
+      "dbn": "02M212",
+      "name": "P.S. 212 MIDTOWN WEST"
+    },
+    {
+      "dbn": "19K213",
+      "name": "P.S. 213 NEW LOTS"
+    },
+    {
+      "dbn": "26Q213",
+      "name": "P.S. 213 THE CARL ULLMAN SCHOOL"
+    },
+    {
+      "dbn": "12X214",
+      "name": "P.S. 214"
+    },
+    {
+      "dbn": "25Q214",
+      "name": "P.S. 214 CADWALLADER COLDEN"
+    },
+    {
+      "dbn": "19K214",
+      "name": "P.S. 214 MICHAEL FRIEDSAM"
+    },
+    {
+      "dbn": "21K215",
+      "name": "P.S. 215 MORRIS H. WEISS"
+    },
+    {
+      "dbn": "21K216",
+      "name": "P.S. 216 ARTURO TOSCANINI"
+    },
+    {
+      "dbn": "22K217",
+      "name": "P.S. 217 COLONEL DAVID MARCUS SCHOOL"
+    },
+    {
+      "dbn": "18K219",
+      "name": "P.S. 219 KENNEDY-KING"
+    },
+    {
+      "dbn": "25Q219",
+      "name": "P.S. 219 PAUL KLAPPER"
+    },
+    {
+      "dbn": "28Q220",
+      "name": "P.S. 220 EDWARD MANDEL"
+    },
+    {
+      "dbn": "26Q221",
+      "name": "P.S. 221 THE NORTH HILLS SCHOOL"
+    },
+    {
+      "dbn": "17K221",
+      "name": "P.S. 221 TOUSSAINT L'OUVERTURE"
+    },
+    {
+      "dbn": "22K222",
+      "name": "P.S. 222 KATHERINE R. SNYDER"
+    },
+    {
+      "dbn": "27Q223",
+      "name": "P.S. 223 LYNDON B. JOHNSON"
+    },
+    {
+      "dbn": "19K224",
+      "name": "P.S. 224 HALE A. WOODRUFF"
+    },
+    {
+      "dbn": "10X226",
+      "name": "P.S. 226"
+    },
+    {
+      "dbn": "21K226",
+      "name": "P.S. 226 ALFRED DE B. MASON"
+    },
+    {
+      "dbn": "20K229",
+      "name": "P.S. 229 DYKER"
+    },
+    {
+      "dbn": "24Q229",
+      "name": "P.S. 229 EMANUEL KAPLAN"
+    },
+    {
+      "dbn": "15K230",
+      "name": "P.S. 230 DORIS L. COHEN"
+    },
+    {
+      "dbn": "27Q232",
+      "name": "P.S. 232 LINDENWOOD"
+    },
+    {
+      "dbn": "18K233",
+      "name": "P.S. 233 LANGSTON HUGHES"
+    },
+    {
+      "dbn": "30Q234",
+      "name": "P.S. 234"
+    },
+    {
+      "dbn": "02M234",
+      "name": "P.S. 234 INDEPENDENCE SCHOOL"
+    },
+    {
+      "dbn": "18K235",
+      "name": "P.S. 235 JANICE MARIE KNIGHT SCHOOL"
+    },
+    {
+      "dbn": "09X236",
+      "name": "P.S. 236 LANGSTON HUGHES"
+    },
+    {
+      "dbn": "22K236",
+      "name": "P.S. 236 MILL BASIN"
+    },
+    {
+      "dbn": "21K238",
+      "name": "P.S. 238 ANNE SULLIVAN"
+    },
+    {
+      "dbn": "24Q239",
+      "name": "P.S. 239"
+    },
+    {
+      "dbn": "17K241",
+      "name": "P.S. 241 EMMA L. JOHNSTON"
+    },
+    {
+      "dbn": "03M242",
+      "name": "P.S. 242 - THE YOUNG DIPLOMATS MAGNET ACADEMY"
+    },
+    {
+      "dbn": "25Q242",
+      "name": "P.S. 242 LEONARD P. STAVISKY EARLY CHILDHOOD SCHOO"
+    },
+    {
+      "dbn": "16K243",
+      "name": "P.S. 243K- THE WEEKSVILLE SCHOOL"
+    },
+    {
+      "dbn": "18K244",
+      "name": "P.S. 244 RICHARD R. GREEN"
+    },
+    {
+      "dbn": "22K245",
+      "name": "P.S. 245"
+    },
+    {
+      "dbn": "10X246",
+      "name": "P.S. 246 POE CENTER"
+    },
+    {
+      "dbn": "20K247",
+      "name": "P.S. 247 BROOKLYN"
+    },
+    {
+      "dbn": "17K249",
+      "name": "P.S. 249 THE CATON"
+    },
+    {
+      "dbn": "14K250",
+      "name": "P.S. 250 GEORGE H. LINDSAY"
+    },
+    {
+      "dbn": "22K251",
+      "name": "P.S. 251 PAERDEGAT"
+    },
+    {
+      "dbn": "29Q251",
+      "name": "P.S. 251 QUEENS"
+    },
+    {
+      "dbn": "21K253",
+      "name": "P.S. 253"
+    },
+    {
+      "dbn": "27Q254",
+      "name": "P.S. 254 - THE ROSA PARKS SCHOOL"
+    },
+    {
+      "dbn": "22K254",
+      "name": "P.S. 254 DAG HAMMARSKJOLD"
+    },
+    {
+      "dbn": "22K255",
+      "name": "P.S. 255 BARBARA REING SCHOOL"
+    },
+    {
+      "dbn": "13K256",
+      "name": "P.S. 256 BENJAMIN BANNEKER"
+    },
+    {
+      "dbn": "14K257",
+      "name": "P.S. 257 JOHN F. HYLAN"
+    },
+    {
+      "dbn": "15K261",
+      "name": "P.S. 261 ZIPPORIAH MILLS"
+    },
+    {
+      "dbn": "16K262",
+      "name": "P.S. 262 EL HAJJ MALIK EL SHABAZZ ELEMENTARY SCHOO"
+    },
+    {
+      "dbn": "20K264",
+      "name": "P.S. 264 BAY RIDGE ELEMENTARY SCHOOL FOR THE ARTS"
+    },
+    {
+      "dbn": "18K268",
+      "name": "P.S. 268 EMMA LAZARUS"
+    },
+    {
+      "dbn": "13K270",
+      "name": "P.S. 270 JOHANN DEKALB"
+    },
+    {
+      "dbn": "18K272",
+      "name": "P.S. 272 CURTIS ESTABROOK"
+    },
+    {
+      "dbn": "27Q273",
+      "name": "P.S. 273"
+    },
+    {
+      "dbn": "19K273",
+      "name": "P.S. 273 WORTMAN"
+    },
+    {
+      "dbn": "32K274",
+      "name": "P.S. 274 KOSCIUSKO"
+    },
+    {
+      "dbn": "18K276",
+      "name": "P.S. 276 LOUIS MARSHALL"
+    },
+    {
+      "dbn": "07X277",
+      "name": "P.S. 277"
+    },
+    {
+      "dbn": "22K277",
+      "name": "P.S. 277 GERRITSEN BEACH"
+    },
+    {
+      "dbn": "10X279",
+      "name": "P.S. 279 CAPTAIN MANUEL RIVERA, JR."
+    },
+    {
+      "dbn": "18K279",
+      "name": "P.S. 279 HERMAN SCHREIBER"
+    },
+    {
+      "dbn": "13K282",
+      "name": "P.S. 282 PARK SLOPE"
+    },
+    {
+      "dbn": "13K287",
+      "name": "P.S. 287 BAILEY K. ASHFORD"
+    },
+    {
+      "dbn": "21K288",
+      "name": "P.S. 288 THE SHIRLEY TANYHILL"
+    },
+    {
+      "dbn": "17K289",
+      "name": "P.S. 289 GEORGE V. BROWER"
+    },
+    {
+      "dbn": "19K290",
+      "name": "P.S. 290 JUAN MOREL CAMPOS"
+    },
+    {
+      "dbn": "02M290",
+      "name": "P.S. 290 MANHATTAN NEW SCHOOL"
+    },
+    {
+      "dbn": "10X291",
+      "name": "P.S. 291"
+    },
+    {
+      "dbn": "15K295",
+      "name": "P.S. 295"
+    },
+    {
+      "dbn": "14K297",
+      "name": "P.S. 297 ABRAHAM STOCKTON"
+    },
+    {
+      "dbn": "23K298",
+      "name": "P.S. 298 DR. BETTY SHABAZZ"
+    },
+    {
+      "dbn": "32K299",
+      "name": "P.S. 299 THOMAS WARREN FIELD"
+    },
+    {
+      "dbn": "10X003",
+      "name": "P.S. 3 RAUL JULIA MICRO SOCIETY"
+    },
+    {
+      "dbn": "08X304",
+      "name": "P.S. 304 EARLY CHILDHOOD SCHOOL"
+    },
+    {
+      "dbn": "10X306",
+      "name": "P.S. 306"
+    },
+    {
+      "dbn": "19K306",
+      "name": "P.S. 306 ETHAN ALLEN"
+    },
+    {
+      "dbn": "13K307",
+      "name": "P.S. 307 DANIEL HALE WILLIAMS"
+    },
+    {
+      "dbn": "16K308",
+      "name": "P.S. 308 CLARA CARDWELL"
+    },
+    {
+      "dbn": "16K309",
+      "name": "P.S. 309 THE GEORGE E. WIBECAN PREPARATORY ACADEMY"
+    },
+    {
+      "dbn": "10X310",
+      "name": "P.S. 310 MARBLE HILL"
+    },
+    {
+      "dbn": "22K312",
+      "name": "P.S. 312 BERGEN BEACH"
+    },
+    {
+      "dbn": "10X315",
+      "name": "P.S. 315 LAB SCHOOL"
+    },
+    {
+      "dbn": "17K316",
+      "name": "P.S. 316 ELIJAH STROUD"
+    },
+    {
+      "dbn": "15K321",
+      "name": "P.S. 321 WILLIAM PENN"
+    },
+    {
+      "dbn": "23K327",
+      "name": "P.S. 327 DR. ROSE B. ENGLISH"
+    },
+    {
+      "dbn": "19K328",
+      "name": "P.S. 328 PHYLLIS WHEATLEY"
+    },
+    {
+      "dbn": "21K329",
+      "name": "P.S. 329 SURFSIDE"
+    },
+    {
+      "dbn": "03M333",
+      "name": "P.S. 333 MANHATTAN SCHOOL FOR CHILDREN"
+    },
+    {
+      "dbn": "16K335",
+      "name": "P.S. 335 GRANVILLE T. WOODS"
+    },
+    {
+      "dbn": "10X340",
+      "name": "P.S. 340"
+    },
+    {
+      "dbn": "19K345",
+      "name": "P.S. 345 PATROLMAN ROBERT BOLDEN"
+    },
+    {
+      "dbn": "19K346",
+      "name": "P.S. 346 ABE STARK"
+    },
+    {
+      "dbn": "31R035",
+      "name": "P.S. 35 THE CLOVE VALLEY SCHOOL"
+    },
+    {
+      "dbn": "10X360",
+      "name": "P.S. 360"
+    },
+    {
+      "dbn": "29Q360",
+      "name": "P.S. 360"
+    },
+    {
+      "dbn": "22K361",
+      "name": "P.S. 361 EAST FLATBUSH EARLY CHILDHOOD SCHOOL"
+    },
+    {
+      "dbn": "17K375",
+      "name": "P.S. 375 JACKIE ROBINSON SCHOOL"
+    },
+    {
+      "dbn": "26Q376",
+      "name": "P.S. 376"
+    },
+    {
+      "dbn": "32K376",
+      "name": "P.S. 376"
+    },
+    {
+      "dbn": "32K377",
+      "name": "P.S. 377 ALEJANDRINA B. DE GAUTIER"
+    },
+    {
+      "dbn": "04M038",
+      "name": "P.S. 38 ROBERTO CLEMENTE"
+    },
+    {
+      "dbn": "14K380",
+      "name": "P.S. 380 JOHN WAYNE ELEMENTARY"
+    },
+    {
+      "dbn": "31R039",
+      "name": "P.S. 39 FRANCIS J. MURPHY JR."
+    },
+    {
+      "dbn": "10X396",
+      "name": "P.S. 396"
+    },
+    {
+      "dbn": "17K397",
+      "name": "P.S. 397 FOSTER-LAURIE"
+    },
+    {
+      "dbn": "17K398",
+      "name": "P.S. 398 WALTER WEAVER"
+    },
+    {
+      "dbn": "17K399",
+      "name": "P.S. 399 STANLEY EUGENE CLARK"
+    },
+    {
+      "dbn": "03M452",
+      "name": "P.S. 452"
+    },
+    {
+      "dbn": "07X005",
+      "name": "P.S. 5 PORT MORRIS"
+    },
+    {
+      "dbn": "20K503",
+      "name": "P.S. 503: THE SCHOOL OF DISCOVERY"
+    },
+    {
+      "dbn": "20K506",
+      "name": "P.S. 506: THE SCHOOL OF JOURNALISM & TECHNOLOGY"
+    },
+    {
+      "dbn": "02M527",
+      "name": "P.S. 527 - EAST SIDE SCHOOL FOR SOCIAL ACTION"
+    },
+    {
+      "dbn": "12X536",
+      "name": "P.S. 536"
+    },
+    {
+      "dbn": "13K054",
+      "name": "P.S. 54 THE DETECTIVE RAFAEL RAMOS SCHOOL"
+    },
+    {
+      "dbn": "31R056",
+      "name": "P.S. 56 THE LOUIS DESARIO SCHOOL"
+    },
+    {
+      "dbn": "24Q058",
+      "name": "P.S. 58 - THE SCHOOL OF HEROES"
+    },
+    {
+      "dbn": "08X583",
+      "name": "P.S. 583"
+    },
+    {
+      "dbn": "12X595",
+      "name": "P.S. 595"
+    },
+    {
+      "dbn": "31R006",
+      "name": "P.S. 6 CORPORAL ALLAN F. KIVLEHAN SCHOOL"
+    },
+    {
+      "dbn": "27Q065",
+      "name": "P.S. 65 - THE RAYMOND YORK ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "31R065",
+      "name": "P.S. 65 THE ACADEMY OF INNOVATIVE LEARNING"
+    },
+    {
+      "dbn": "18K066",
+      "name": "P.S. 66"
+    },
+    {
+      "dbn": "20K069",
+      "name": "P.S. 69 VINCENT D. GRIPPO SCHOOL"
+    },
+    {
+      "dbn": "31R074",
+      "name": "P.S. 74 FUTURE LEADERS ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "20K748",
+      "name": "P.S. 748 BROOKLYN SCHOOL FOR GLOBAL SCHOLARS"
+    },
+    {
+      "dbn": "08X075",
+      "name": "P.S. 75 SCHOOL OF RESEARCH AND DISCOVERY"
+    },
+    {
+      "dbn": "02M077",
+      "name": "P.S. 77 LOWER LAB SCHOOL"
+    },
+    {
+      "dbn": "17K770",
+      "name": "P.S. 770 NEW AMERICAN ACADEMY"
+    },
+    {
+      "dbn": "31R078",
+      "name": "P.S. 78"
+    },
+    {
+      "dbn": "31R008",
+      "name": "P.S. 8 SHIRLEE SOLOMON"
+    },
+    {
+      "dbn": "24Q081",
+      "name": "P.S. 81Q JEAN PAUL RICHTER"
+    },
+    {
+      "dbn": "22K889",
+      "name": "P.S. 889"
+    },
+    {
+      "dbn": "02M089",
+      "name": "P.S. 89"
+    },
+    {
+      "dbn": "24Q089",
+      "name": "P.S. 89Q: THE JOSE PERALTA SCHOOL OF DREAMERS"
+    },
+    {
+      "dbn": "10X009",
+      "name": "P.S. 9 RYER AVENUE ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "21K090",
+      "name": "P.S. 90 EDNA COHEN SCHOOL"
+    },
+    {
+      "dbn": "19K938",
+      "name": "P.S. 938"
+    },
+    {
+      "dbn": "21K097",
+      "name": "P.S. 97 THE HIGHLAWN"
+    },
+    {
+      "dbn": "22K134",
+      "name": "P.S. K134"
+    },
+    {
+      "dbn": "21K225",
+      "name": "P.S. K225 - THE EILEEN E. ZAGLIN"
+    },
+    {
+      "dbn": "22K315",
+      "name": "P.S. K315"
+    },
+    {
+      "dbn": "24Q016",
+      "name": "P.S. Q016 THE NANCY DEBENEDITTIS SCHOOL"
+    },
+    {
+      "dbn": "28Q086",
+      "name": "P.S. Q086"
+    },
+    {
+      "dbn": "08X014",
+      "name": "P.S. X014 SENATOR JOHN CALANDRA"
+    },
+    {
+      "dbn": "10X015",
+      "name": "P.S. X015 INSTITUTE FOR ENVIRONMENTAL LEARNING"
+    },
+    {
+      "dbn": "10X037",
+      "name": "P.S. X037 - MULTIPLE INTELLIGENCE SCHOOL"
+    },
+    {
+      "dbn": "09X088",
+      "name": "P.S. X088 - S. SILVERSTEIN LITTLE SPARROW SCHOOL"
+    },
+    {
+      "dbn": "09X114",
+      "name": "P.S. X114 - LUIS LLORENS TORRES SCHOOLS"
+    },
+    {
+      "dbn": "08X140",
+      "name": "P.S. X140 THE EAGLE SCHOOL"
+    },
+    {
+      "dbn": "23K155",
+      "name": "P.S./ I.S. 155 NICHOLAS HERKIMER"
+    },
+    {
+      "dbn": "26Q178",
+      "name": "P.S./ IS 178 HOLLISWOOD"
+    },
+    {
+      "dbn": "32K045",
+      "name": "P.S./I.S. 045 HORACE E. GREENE"
+    },
+    {
+      "dbn": "24Q087",
+      "name": "P.S./I.S. 087 MIDDLE VILLAGE"
+    },
+    {
+      "dbn": "20K104",
+      "name": "P.S./I.S. 104 THE FORT HAMILTON SCHOOL"
+    },
+    {
+      "dbn": "24Q113",
+      "name": "P.S./I.S. 113 ANTHONY J. PRANZO"
+    },
+    {
+      "dbn": "29Q116",
+      "name": "P.S./I.S. 116 WILLIAM C. HUGHLEY"
+    },
+    {
+      "dbn": "24Q119",
+      "name": "P.S./I.S. 119 THE GLENDALE"
+    },
+    {
+      "dbn": "14K157",
+      "name": "P.S./I.S. 157 THE BENJAMIN FRANKLIN HEALTH & SCIEN"
+    },
+    {
+      "dbn": "06M187",
+      "name": "P.S./I.S. 187 HUDSON CLIFFS"
+    },
+    {
+      "dbn": "29Q208",
+      "name": "P.S./I.S. 208"
+    },
+    {
+      "dbn": "06M210",
+      "name": "P.S./I.S. 210 - TWENTY-FIRST CENTURY ACADEMY FOR C"
+    },
+    {
+      "dbn": "02M217",
+      "name": "P.S./I.S. 217 ROOSEVELT ISLAND"
+    },
+    {
+      "dbn": "09X218",
+      "name": "P.S./I.S. 218 RAFAEL HERNANDEZ DUAL LANGUAGE MAGNE"
+    },
+    {
+      "dbn": "07X224",
+      "name": "P.S./I.S. 224"
+    },
+    {
+      "dbn": "26Q266",
+      "name": "P.S./I.S. 266"
+    },
+    {
+      "dbn": "29Q268",
+      "name": "P.S./I.S. 268"
+    },
+    {
+      "dbn": "29Q295",
+      "name": "P.S./I.S. 295"
+    },
+    {
+      "dbn": "20K030",
+      "name": "P.S./I.S. 30 MARY WHITE OVINGTON"
+    },
+    {
+      "dbn": "23K323",
+      "name": "P.S./I.S. 323"
+    },
+    {
+      "dbn": "10X054",
+      "name": "P.S./I.S. 54"
+    },
+    {
+      "dbn": "30Q078",
+      "name": "P.S./I.S. 78Q"
+    },
+    {
+      "dbn": "27Q042",
+      "name": "P.S./M.S 042 R. VERNAM"
+    },
+    {
+      "dbn": "09X004",
+      "name": "P.S./M.S. 004 CROTONA PARK WEST"
+    },
+    {
+      "dbn": "07X029",
+      "name": "P.S./M.S. 029 MELROSE SCHOOL"
+    },
+    {
+      "dbn": "07X031",
+      "name": "P.S./M.S. 031 THE WILLIAM LLOYD GARRISON"
+    },
+    {
+      "dbn": "27Q114",
+      "name": "P.S./M.S. 114 BELLE HARBOR"
+    },
+    {
+      "dbn": "11X498",
+      "name": "P.S./M.S. 11X498 - VAN NEST ACADEMY"
+    },
+    {
+      "dbn": "29Q138",
+      "name": "P.S./M.S. 138 SUNRISE"
+    },
+    {
+      "dbn": "29Q147",
+      "name": "P.S./M.S. 147 RONALD MCNAIR"
+    },
+    {
+      "dbn": "11X194",
+      "name": "P.S./M.S. 194"
+    },
+    {
+      "dbn": "25Q200",
+      "name": "P.S./M.S. 200 - THE MAGNET SCHOOL OF GLOBAL STUDIE"
+    },
+    {
+      "dbn": "10X280",
+      "name": "P.S./M.S. 280 MOSHOLU PARKWAY"
+    },
+    {
+      "dbn": "15K464",
+      "name": "PARK SLOPE COLLEGIATE"
+    },
+    {
+      "dbn": "17K002",
+      "name": "PARKSIDE PREPARATORY ACADEMY"
+    },
+    {
+      "dbn": "29Q259",
+      "name": "PATHWAYS COLLEGE PREPARATORY SCHOOL: A COLLEGE BOA"
+    },
+    {
+      "dbn": "06M278",
+      "name": "PAULA HEDBAVNY SCHOOL"
+    },
+    {
+      "dbn": "11X468",
+      "name": "PELHAM ACADEMY OF ACADEMICS AND COMMUNITY ENGAGEME"
+    },
+    {
+      "dbn": "11X566",
+      "name": "PELHAM GARDENS MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "24Q307",
+      "name": "PIONEER ACADEMY"
+    },
+    {
+      "dbn": "31R068",
+      "name": "PORT RICHMOND SCHOOL FOR VISIONARY LEARNING"
+    },
+    {
+      "dbn": "29Q283",
+      "name": "PREPARATORY ACADEMY FOR WRITERS: A COLLEGE BOARD S"
+    },
+    {
+      "dbn": "02M408",
+      "name": "PROFESSIONAL PERFORMING ARTS HIGH SCHOOL"
+    },
+    {
+      "dbn": "06M178",
+      "name": "PROFESSOR JUAN BOSCH PUBLIC SCHOOL"
+    },
+    {
+      "dbn": "28Q080",
+      "name": "PS 80  THE THURGOOD MARSHALL MAGNET SCHOOL OF MULT"
+    },
+    {
+      "dbn": "10X020",
+      "name": "PS/MS 20 P.O.GEORGE J. WERDANN, III"
+    },
+    {
+      "dbn": "30Q280",
+      "name": "PS280Q: HOME OF THE LIONHEARTS"
+    },
+    {
+      "dbn": "13K009",
+      "name": "PUBLIC SCHOOL 9 THE SARAH SMITH GARNET SCHOOL"
+    },
+    {
+      "dbn": "08X562",
+      "name": "PUGSLEY PREPARATORY ACADEMY"
+    },
+    {
+      "dbn": "28Q310",
+      "name": "QUEENS COLLEGIATE: A COLLEGE BOARD SCHOOL"
+    },
+    {
+      "dbn": "27Q316",
+      "name": "QUEENS EXPLORERS ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "28Q680",
+      "name": "QUEENS GATEWAY TO HEALTH SCIENCES SECONDARY SCHOOL"
+    },
+    {
+      "dbn": "25Q252",
+      "name": "QUEENS SCHOOL OF INQUIRY, THE"
+    },
+    {
+      "dbn": "29Q289",
+      "name": "QUEENS UNITED MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "02M422",
+      "name": "QUEST TO LEARN"
+    },
+    {
+      "dbn": "20K170",
+      "name": "RALPH A. FABRIZIO SCHOOL"
+    },
+    {
+      "dbn": "15K676",
+      "name": "RED HOOK NEIGHBORHOOD SCHOOL"
+    },
+    {
+      "dbn": "28Q332",
+      "name": "REDWOOD MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "04M377",
+      "name": "RENAISSANCE SCHOOL OF THE ARTS"
+    },
+    {
+      "dbn": "13K301",
+      "name": "RESTORATION ACADEMY"
+    },
+    {
+      "dbn": "04M037",
+      "name": "RIVER EAST ELEMENTARY"
+    },
+    {
+      "dbn": "10X141",
+      "name": "RIVERDALE / KINGSBRIDGE ACADEMY (MIDDLE SCHOOL / H"
+    },
+    {
+      "dbn": "23K446",
+      "name": "RIVERDALE AVENUE COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "23K668",
+      "name": "RIVERDALE AVENUE MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "24Q560",
+      "name": "ROBERT F. WAGNER, JR. SECONDARY SCHOOL FOR ARTS AN"
+    },
+    {
+      "dbn": "17K484",
+      "name": "RONALD EDMONDS LEARNING CENTER II"
+    },
+    {
+      "dbn": "27Q377",
+      "name": "S.T.A.R. LEADERSHIP ACADEMY"
+    },
+    {
+      "dbn": "12X458",
+      "name": "SAMARA COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "27Q323",
+      "name": "SCHOLARS' ACADEMY"
+    },
+    {
+      "dbn": "10X386",
+      "name": "SCHOOL FOR ENVIRONMENTAL CITIZENSHIP"
+    },
+    {
+      "dbn": "01M378",
+      "name": "SCHOOL FOR GLOBAL LEADERS"
+    },
+    {
+      "dbn": "05M371",
+      "name": "SCHOOL OF EARTH EXPLORATION AND DISCOVERY HARLEM ("
+    },
+    {
+      "dbn": "20K971",
+      "name": "SCHOOL OF MATH, SCIENCE, AND HEALTHY LIVING"
+    },
+    {
+      "dbn": "12X217",
+      "name": "SCHOOL OF PERFORMING ARTS"
+    },
+    {
+      "dbn": "22K152",
+      "name": "SCHOOL OF SCIENCE & TECHNOLOGY"
+    },
+    {
+      "dbn": "20K407",
+      "name": "SCHOOL OF TECHNOLOGY, ARTS, AND RESEARCH"
+    },
+    {
+      "dbn": "19K663",
+      "name": "SCHOOL OF THE FUTURE BROOKLYN"
+    },
+    {
+      "dbn": "02M413",
+      "name": "SCHOOL OF THE FUTURE HIGH SCHOOL"
+    },
+    {
+      "dbn": "09X454",
+      "name": "SCIENCE AND TECHNOLOGY ACADEMY: A MOTT HALL SCHOOL"
+    },
+    {
+      "dbn": "17K543",
+      "name": "SCIENCE, TECHNOLOGY AND RESEARCH EARLY COLLEGE HIG"
+    },
+    {
+      "dbn": "09X457",
+      "name": "SHERIDAN ACADEMY FOR YOUNG LEADERS"
+    },
+    {
+      "dbn": "02M340",
+      "name": "SIXTH AVENUE ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "08X448",
+      "name": "SOUNDVIEW ACADEMY FOR CULTURE AND SCHOLARSHIP"
+    },
+    {
+      "dbn": "07X296",
+      "name": "SOUTH BRONX ACADEMY FOR APPLIED MEDIA"
+    },
+    {
+      "dbn": "09X593",
+      "name": "SOUTH BRONX INTERNATIONAL MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "07X642",
+      "name": "SOUTH BRONX LITERACY ACADEMY"
+    },
+    {
+      "dbn": "07X221",
+      "name": "SOUTH BRONX PREPARATORY: A COLLEGE BOARD SCHOOL"
+    },
+    {
+      "dbn": "31R058",
+      "name": "SPACE SHUTTLE COLUMBIA SCHOOL"
+    },
+    {
+      "dbn": "03M859",
+      "name": "SPECIAL MUSIC SCHOOL"
+    },
+    {
+      "dbn": "19K422",
+      "name": "SPRING CREEK COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "02M397",
+      "name": "SPRUCE STREET SCHOOL"
+    },
+    {
+      "dbn": "31R861",
+      "name": "STATEN ISLAND SCHOOL OF CIVIC LEADERSHIP"
+    },
+    {
+      "dbn": "03M241",
+      "name": "STEM INSTITUTE OF MANHATTAN"
+    },
+    {
+      "dbn": "15K516",
+      "name": "SUNSET PARK AVENUES ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "15K821",
+      "name": "SUNSET PARK PREP"
+    },
+    {
+      "dbn": "20K939",
+      "name": "SUNSET SCHOOL OF CULTURAL LEARNING"
+    },
+    {
+      "dbn": "04M012",
+      "name": "TAG YOUNG SCHOLARS"
+    },
+    {
+      "dbn": "05M517",
+      "name": "TEACHERS COLLEGE COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "30Q300",
+      "name": "THE 30TH AVENUE SCHOOL (G&T CITYWIDE)"
+    },
+    {
+      "dbn": "02M347",
+      "name": "THE 47 AMERICAN SIGN LANGUAGE & ENGLISH LOWER SCHO"
+    },
+    {
+      "dbn": "28Q303",
+      "name": "THE ACADEMY FOR EXCELLENCE THROUGH THE ARTS"
+    },
+    {
+      "dbn": "20K682",
+      "name": "THE ACADEMY OF TALENTED SCHOLARS"
+    },
+    {
+      "dbn": "25Q244",
+      "name": "THE ACTIVE LEARNING ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "03M334",
+      "name": "THE ANDERSON SCHOOL"
+    },
+    {
+      "dbn": "10X391",
+      "name": "THE ANGELO PATRI MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "31R053",
+      "name": "THE BARBARA ESSELBORN SCHOOL"
+    },
+    {
+      "dbn": "29Q135",
+      "name": "THE BELLAIRE SCHOOL"
+    },
+    {
+      "dbn": "04M182",
+      "name": "THE BILINGUAL BICULTURAL SCHOOL"
+    },
+    {
+      "dbn": "15K497",
+      "name": "THE BOERUM HILL SCHOOL FOR INTERNATIONAL STUDIES"
+    },
+    {
+      "dbn": "08X375",
+      "name": "THE BRONX MATHEMATICS PREPARATORY SCHOOL"
+    },
+    {
+      "dbn": "10X331",
+      "name": "THE BRONX SCHOOL OF YOUNG LEADERS"
+    },
+    {
+      "dbn": "10X051",
+      "name": "THE BRONX STEM AND ARTS ACADEMY"
+    },
+    {
+      "dbn": "16K898",
+      "name": "THE BROOKLYN GREEN SCHOOL"
+    },
+    {
+      "dbn": "15K146",
+      "name": "THE BROOKLYN NEW SCHOOL, P.S. 146"
+    },
+    {
+      "dbn": "24Q343",
+      "name": "THE CHILDREN'S LAB SCHOOL"
+    },
+    {
+      "dbn": "01M361",
+      "name": "THE CHILDREN'S WORKSHOP SCHOOL"
+    },
+    {
+      "dbn": "20K187",
+      "name": "THE CHRISTA MCAULIFFE SCHOOL\\I.S. 187"
+    },
+    {
+      "dbn": "26Q390",
+      "name": "THE CIVIC SCHOOL OF BAYSIDE HILLS"
+    },
+    {
+      "dbn": "02M260",
+      "name": "THE CLINTON SCHOOL"
+    },
+    {
+      "dbn": "08X119",
+      "name": "THE DR. EMMETT W. BASSETT SCHOOL"
+    },
+    {
+      "dbn": "31R028",
+      "name": "THE EAGLE ACADEMY FOR YOUNG MEN OF STATEN ISLAND"
+    },
+    {
+      "dbn": "01M315",
+      "name": "THE EAST VILLAGE COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "28Q287",
+      "name": "THE EMERSON SCHOOL"
+    },
+    {
+      "dbn": "13K008",
+      "name": "THE EMILY WARREN ROEBLING SCHOOL"
+    },
+    {
+      "dbn": "15K447",
+      "name": "THE EXPLORATORY SCHOOL"
+    },
+    {
+      "dbn": "09X443",
+      "name": "THE FAMILY SCHOOL"
+    },
+    {
+      "dbn": "19K325",
+      "name": "THE FRESH CREEK SCHOOL"
+    },
+    {
+      "dbn": "29Q270",
+      "name": "THE GORDON PARKS SCHOOL"
+    },
+    {
+      "dbn": "23K284",
+      "name": "THE GREGORY JOCKO JACKSON SCHOOL OF SPORTS, ART, A"
+    },
+    {
+      "dbn": "31R059",
+      "name": "THE HARBOR VIEW SCHOOL"
+    },
+    {
+      "dbn": "30Q398",
+      "name": "THE HECTOR FIGUEROA SCHOOL"
+    },
+    {
+      "dbn": "09X361",
+      "name": "THE HIGHBRIDGE GREEN SCHOOL"
+    },
+    {
+      "dbn": "26Q115",
+      "name": "THE JAMES J. AMBROSE SCHOOL"
+    },
+    {
+      "dbn": "28Q354",
+      "name": "THE JERMAINE L. GREEN STEM INSTITUTE OF QUEENS"
+    },
+    {
+      "dbn": "31R062",
+      "name": "THE KATHLEEN GRIMM SCHOOL FOR LEADERSHIP AND SUSTA"
+    },
+    {
+      "dbn": "07X223",
+      "name": "THE LABORATORY SCHOOL OF FINANCE AND TECHNOLOGY: X"
+    },
+    {
+      "dbn": "04M072",
+      "name": "THE LEXINGTON ACADEMY"
+    },
+    {
+      "dbn": "03M185",
+      "name": "THE LOCKE SCHOOL OF ARTS AND ENGINEERING"
+    },
+    {
+      "dbn": "08X333",
+      "name": "THE LONGWOOD ACADEMY OF DISCOVERY"
+    },
+    {
+      "dbn": "20K201",
+      "name": "THE MADELEINE BRENNAN SCHOOL"
+    },
+    {
+      "dbn": "11X483",
+      "name": "THE MATILDA AVENUE SCHOOL"
+    },
+    {
+      "dbn": "15K118",
+      "name": "THE MAURICE SENDAK COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "31R080",
+      "name": "THE MICHAEL J. PETRIDES SCHOOL"
+    },
+    {
+      "dbn": "18K581",
+      "name": "THE MIDDLE SCHOOL OF MEDIA, LAW AND FINE ARTS"
+    },
+    {
+      "dbn": "06M223",
+      "name": "THE MOTT HALL SCHOOL"
+    },
+    {
+      "dbn": "09X274",
+      "name": "THE NEW AMERICAN ACADEMY AT ROBERTO CLEMENTE STATE"
+    },
+    {
+      "dbn": "10X244",
+      "name": "THE NEW SCHOOL FOR LEADERSHIP AND JOURNALISM"
+    },
+    {
+      "dbn": "02M343",
+      "name": "THE PECK SLIP SCHOOL"
+    },
+    {
+      "dbn": "25Q499",
+      "name": "THE QUEENS COLLEGE SCHOOL FOR MATH, SCIENCE AND TE"
+    },
+    {
+      "dbn": "28Q349",
+      "name": "THE QUEENS SCHOOL FOR LEADERSHIP AND EXCELLENCE"
+    },
+    {
+      "dbn": "27Q253",
+      "name": "THE RANDOLPH HOLDER SCHOOL FOR SOCIAL JUSTICE"
+    },
+    {
+      "dbn": "02M281",
+      "name": "THE RIVER SCHOOL"
+    },
+    {
+      "dbn": "03M191",
+      "name": "THE RIVERSIDE SCHOOL FOR MAKERS AND ARTISTS"
+    },
+    {
+      "dbn": "20K310",
+      "name": "THE SCHOOL FOR FUTURE LEADERS"
+    },
+    {
+      "dbn": "08X337",
+      "name": "THE SCHOOL FOR INQUIRY AND SOCIAL JUSTICE"
+    },
+    {
+      "dbn": "15K896",
+      "name": "THE SCHOOL OF CREATIVITY AND INNOVATION"
+    },
+    {
+      "dbn": "17K354",
+      "name": "THE SCHOOL OF INTEGRATED LEARNING"
+    },
+    {
+      "dbn": "12X300",
+      "name": "THE SCHOOL OF SCIENCE AND APPLIED LEARNING"
+    },
+    {
+      "dbn": "18K366",
+      "name": "THE SCIENCE AND MEDICINE MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "20K180",
+      "name": "THE SEEALL ACADEMY"
+    },
+    {
+      "dbn": "01M063",
+      "name": "THE STAR ACADEMY - P.S.63"
+    },
+    {
+      "dbn": "11X481",
+      "name": "THE STEAM BRIDGE SCHOOL"
+    },
+    {
+      "dbn": "31R041",
+      "name": "THE STEPHANIE A. VIERNO SCHOOL"
+    },
+    {
+      "dbn": "07X551",
+      "name": "THE URBAN ASSEMBLY BRONX ACADEMY OF LETTERS"
+    },
+    {
+      "dbn": "13K351",
+      "name": "THE URBAN ASSEMBLY UNISON SCHOOL"
+    },
+    {
+      "dbn": "09X294",
+      "name": "THE WALTON AVENUE SCHOOL"
+    },
+    {
+      "dbn": "06M368",
+      "name": "THE WILLIAM LYNCH SCHOOL"
+    },
+    {
+      "dbn": "15K154",
+      "name": "THE WINDSOR TERRACE SCHOOL"
+    },
+    {
+      "dbn": "30Q361",
+      "name": "THE WOODSIDE COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "31R085",
+      "name": "THE YOUNG WOMEN'S LEADERSHIP SCHOOL OF STATEN ISLAND"
+    },
+    {
+      "dbn": "10X225",
+      "name": "THEATRE ARTS PRODUCTION COMPANY SCHOOL"
+    },
+    {
+      "dbn": "10X045",
+      "name": "THOMAS C. GIORDANO MIDDLE SCHOOL 45"
+    },
+    {
+      "dbn": "05M670",
+      "name": "THURGOOD MARSHALL ACADEMY FOR LEARNING AND SOCIAL"
+    },
+    {
+      "dbn": "05M318",
+      "name": "THURGOOD MARSHALL ACADEMY LOWER SCHOOL"
+    },
+    {
+      "dbn": "01M839",
+      "name": "TOMPKINS SQUARE MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "01M332",
+      "name": "UNIVERSITY NEIGHBORHOOD MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "05M286",
+      "name": "URBAN ASSEMBLY ACADEMY FOR FUTURE LEADERS"
+    },
+    {
+      "dbn": "13K527",
+      "name": "URBAN ASSEMBLY INSTITUTE OF MATH AND SCIENCE FOR Y"
+    },
+    {
+      "dbn": "09X241",
+      "name": "URBAN ASSEMBLY SCHOOL FOR APPLIED MATH AND SCIENCE"
+    },
+    {
+      "dbn": "20K609",
+      "name": "URBAN ASSEMBLY SCHOOL FOR LEADERSHIP AND EMPOWERME"
+    },
+    {
+      "dbn": "08X371",
+      "name": "URBAN INSTITUTE OF MATHEMATICS"
+    },
+    {
+      "dbn": "12X463",
+      "name": "URBAN SCHOLARS COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "19K654",
+      "name": "VAN SICLEN COMMUNITY MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "27Q319",
+      "name": "VILLAGE ACADEMY"
+    },
+    {
+      "dbn": "19K661",
+      "name": "VISTA ACADEMY"
+    },
+    {
+      "dbn": "03M415",
+      "name": "WADLEIGH SECONDARY SCHOOL FOR THE PERFORMING & VIS"
+    },
+    {
+      "dbn": "06M366",
+      "name": "WASHINGTON HEIGHTS ACADEMY"
+    },
+    {
+      "dbn": "06M348",
+      "name": "WASHINGTON HEIGHTS EXPEDITIONARY LEARNING SCHOOL"
+    },
+    {
+      "dbn": "27Q317",
+      "name": "WATERSIDE CHILDREN'S STUDIO SCHOOL"
+    },
+    {
+      "dbn": "27Q318",
+      "name": "WATERSIDE SCHOOL FOR LEADERSHIP"
+    },
+    {
+      "dbn": "27Q362",
+      "name": "WAVE PREPARATORY ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "10X243",
+      "name": "WEST BRONX ACADEMY FOR THE FUTURE"
+    },
+    {
+      "dbn": "03M291",
+      "name": "WEST END SECONDARY SCHOOL"
+    },
+    {
+      "dbn": "03M421",
+      "name": "WEST PREP ACADEMY"
+    },
+    {
+      "dbn": "16K057",
+      "name": "WHITELAW REID ACADEMY OF ARTS AND BUSINESS"
+    },
+    {
+      "dbn": "25Q285",
+      "name": "WORLD JOURNALISM PREPARATORY: A COLLEGE BOARD SCHO"
+    },
+    {
+      "dbn": "28Q284",
+      "name": "YORK EARLY COLLEGE ACADEMY"
+    },
+    {
+      "dbn": "02M151",
+      "name": "YORKVILLE COMMUNITY SCHOOL"
+    },
+    {
+      "dbn": "02M177",
+      "name": "YORKVILLE EAST MIDDLE SCHOOL"
+    },
+    {
+      "dbn": "07X369",
+      "name": "YOUNG LEADERS ELEMENTARY SCHOOL"
+    },
+    {
+      "dbn": "11X357",
+      "name": "YOUNG VOICES ACADEMY OF THE BRONX"
+    },
+    {
+      "dbn": "03M610",
+      "name": "YOUNG WOMEN'S LEADERSHIP SCHOOL"
+    },
+    {
+      "dbn": "14K614",
+      "name": "YOUNG WOMEN'S LEADERSHIP SCHOOL OF BROOKLYN"
+    },
+    {
+      "dbn": "09X568",
+      "name": "YOUNG WOMEN'S LEADERSHIP SCHOOL OF THE BRONX"
+    },
+    {
+      "dbn": "30Q286",
+      "name": "YOUNG WOMEN'S LEADERSHIP SCHOOL, ASTORIA"
+    },
+    {
+      "dbn": "28Q896",
+      "name": "YOUNG WOMEN'S LEADERSHIP SCHOOL, QUEENS"
+    }
+  ]
+}

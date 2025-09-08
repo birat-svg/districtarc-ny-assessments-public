@@ -23,10 +23,10 @@ const BRAND = {
 /* ==================== chart color tokens (unchanged) ==================== */
 const COLORS = ["#0cbfde", "#565A5C", "#CFB87C", "#3f779c", "#ffd166", "#118ab2", "#06d6a0"] as const;
 const LEVEL_COLORS = {
-  L1: "#ef4444",
-  L2: "#f59e0b",
-  L3: "#86efac",
-  L4: "#16a34a",
+  L1: "#ef4444", // red
+  L2: "#f59e0b", // orange
+  L3: "#86efac", // light green
+  L4: "#16a34a", // green
 };
 
 /* ==================== tiny UI helpers ==================== */
@@ -38,7 +38,8 @@ const Card = ({ title, subtitle, children }: any) => (
     {title && (
       <div className="mb-2">
         {subtitle && (
-          <div className="text-[11px] tracking-wide uppercase" style={{ color: BRAND.textLight }}>
+          <div className="text-[11px] tracking-wide uppercase"
+               style={{ color: BRAND.textLight }}>
             {subtitle}
           </div>
         )}
@@ -54,14 +55,16 @@ const Select = ({ label, value, options, onChange }: any) => (
     <span style={{ color: BRAND.textLight }}>{label}</span>
     <select
       className="h-10 px-3 rounded-xl border bg-white"
-      style={{ borderColor: "#cbd5e1", color: BRAND.text, outline: "none" }}
+      style={{
+        borderColor: "#cbd5e1",
+        color: BRAND.text,
+        outline: "none",
+      }}
       value={value}
       onChange={(e) => onChange(e.target.value)}
     >
       {options.map((o: any) => (
-        <option key={String(o)} value={String(o)}>
-          {String(o)}
-        </option>
+        <option key={String(o)} value={String(o)}>{String(o)}</option>
       ))}
     </select>
   </label>
@@ -110,10 +113,8 @@ function SearchableCombo({
         </button>
 
         {open && (
-          <div
-            className="absolute z-30 mt-2 w-[22rem] max-w-[90vw] bg-white border rounded-xl shadow-lg"
-            style={{ borderColor: "#e2e8f0" }}
-          >
+          <div className="absolute z-30 mt-2 w-[22rem] max-w-[90vw] bg-white border rounded-xl shadow-lg"
+               style={{ borderColor: "#e2e8f0" }}>
             <div className="p-2 border-b flex items-center gap-2" style={{ borderColor: "#e2e8f0" }}>
               <input
                 autoFocus
@@ -170,10 +171,30 @@ const weighted = (arr: any[], pctKey: string, weightKey = COLS.n) => {
 type Level = "city" | "borough" | "district" | "school";
 type Subject = "ELA" | "Math";
 
-/* ==================== API base (under /ny-assessments-public) ==================== */
+/* ==================== API base (for data rows) ==================== */
 const API_BASE = "/ny-assessments-public/api/assessments";
-/* Static json with prebuilt school list */
-const SCHOOL_NAMES_JSON = "/ny-assessments-public/school-names.json";
+
+/* ==================== loading overlay ==================== */
+function LoadingOverlay({ show, label }: { show: boolean; label?: string }) {
+  if (!show) return null;
+  return (
+    <div className="fixed inset-0 z-40 grid place-items-center bg-white/70 backdrop-blur-sm">
+      <div className="flex flex-col items-center gap-3">
+        <div
+          className="w-12 h-12 rounded-full border-4 animate-spin"
+          style={{
+            borderColor: "#cbd5e1",
+            borderTopColor: BRAND.primary,
+          }}
+          aria-label="Loading"
+        />
+        <div className="text-sm" style={{ color: BRAND.accent }}>
+          {label || "Loading…"}
+        </div>
+      </div>
+    </div>
+  );
+}
 
 /* ==================== page ==================== */
 export default function Page() {
@@ -198,50 +219,76 @@ export default function Page() {
       setError(undefined);
       try {
         if (level === "school") {
-          /* ---- 1) Load names from static JSON (fallback to API) ---------------- */
-          try {
-            const resNames = await fetch(SCHOOL_NAMES_JSON, { cache: "force-cache", signal: ctrl.signal });
-            if (resNames.ok) {
-              const jn = await resNames.json();
-              if (!ignore) setSchoolNames(Array.isArray(jn?.names) ? jn.names : []);
-            } else {
-              // Fallback to API if the static file isn't found (e.g., during local dev before running prebuild)
-              const resApi = await fetch(`${API_BASE}?subject=${subject}&level=school&names=1`, { cache: "no-store", signal: ctrl.signal });
-              const jn = await resApi.json();
-              if (!ignore) setSchoolNames(Array.isArray(jn?.names) ? jn.names : []);
-            }
-          } catch {
-            // Final safety: empty list
-            if (!ignore) setSchoolNames([]);
-          }
-
-          /* ---- 2) Load the selected school's rows via API (small response) ---- */
-          if (school && school !== "All") {
-            const res = await fetch(
-              `${API_BASE}?subject=${subject}&level=school&school=${encodeURIComponent(school)}`,
+            // 1) get the names list from the API
+            const resNames = await fetch(
+              `${API_BASE}?subject=${subject}&level=school&names=1`,
               { cache: "no-store", signal: ctrl.signal }
             );
-            const json = await res.json();
-            if (!ignore) {
-              if (!res.ok || json?.error) {
-                setError(json?.error || `Server error (${res.status})`);
-                setDataset({});
-              } else {
-                setDataset(json && typeof json === "object" ? json : {});
+            const jn = await resNames.json();
+            let incoming: string[] = Array.isArray(jn?.names) ? jn.names : [];
+          
+            // 2) load dbn->name index (public file created by your script)
+            //    this lets us translate any DBN-like token into a proper name
+            let dbnIndex: Record<string, string> = {};
+            try {
+              const resIdx = await fetch(
+                `/ny-assessments-public/school-index.json`,
+                { cache: "no-store", signal: ctrl.signal }
+              );
+              const ji = await resIdx.json();
+              // normalize to { [dbn]: name }
+              if (Array.isArray(ji?.index)) {
+                for (const p of ji.index) {
+                  if (p?.dbn && p?.name) dbnIndex[String(p.dbn).trim()] = String(p.name).trim();
+                }
               }
+            } catch {
+              // ignore; we'll use the names as-is
             }
-          } else {
-            if (!ignore) setDataset({});
+          
+            // 3) translate any DBN-ish strings (e.g., 01M110)
+            const DBN_RE = /^\d{2}[A-Z]\d{3}$/i; // simple DBN shape
+            const cleaned = incoming.map((s) => {
+              const t = String(s || "").trim();
+              if (DBN_RE.test(t) && dbnIndex[t]) return dbnIndex[t];
+              return t;
+            });
+          
+            if (!ignore) setSchoolNames(cleaned);
+            
+            // If a school is already selected, fetch its rows (unchanged)
+            if (school && school !== "All") {
+              const res = await fetch(
+                `${API_BASE}?subject=${subject}&level=school&school=${encodeURIComponent(school)}`,
+                { cache: "no-store", signal: ctrl.signal }
+              );
+              const json = await res.json();
+              if (!ignore) {
+                if (!res.ok || json?.error) {
+                  setError(json?.error || `Server error (${res.status})`);
+                  setDataset({});
+                } else {
+                  setDataset(json && typeof json === "object" ? json : {});
+                }
+              }
+            } else {
+              if (!ignore) setDataset({});
+            }
           }
-        } else {
-          const res = await fetch(`${API_BASE}?subject=${subject}&level=${level}`, { cache: "no-store", signal: ctrl.signal });
+           else {
+          // City / Borough / District — still stream from API
+          const res = await fetch(`${API_BASE}?subject=${subject}&level=${level}`, {
+            cache: "no-store",
+            signal: ctrl.signal,
+          });
           const json = await res.json();
           if (!ignore) {
             if (!res.ok || json?.error) {
               setError(json?.error || `Server error (${res.status})`);
               setDataset({});
             } else {
-              const isValid = json && typeof json === "object" && Object.values(json).every((v: any) => Array.isArray(v));
+              const isValid =
+                json && typeof json === "object" && Object.values(json).every((v: any) => Array.isArray(v));
               setDataset(isValid ? json : {});
               if (!isValid) setError("Unexpected data format from server.");
             }
@@ -326,7 +373,7 @@ export default function Page() {
     return uniq(values).sort((a: any, b: any) => String(a).localeCompare(String(b)));
   }, [level, extraFilterKey, allRowsAllSheets, schoolNames]);
 
-  // Reset only when level changes
+  // Reset only when level changes (don’t clear on category/year changes)
   useEffect(() => {
     if (level === "school") {
       setSchool("All");
@@ -409,6 +456,7 @@ export default function Page() {
 
   /* ---------- visuals ---------- */
 
+  // Trend by Year
   const trend = useMemo(() => {
     const ys = uniq(sheetRows.map((r) => r[COLS.year])).map(Number).sort((a, b) => a - b);
     return ys.map((y) => {
@@ -423,6 +471,7 @@ export default function Page() {
     });
   }, [sheetRows, category, grade, extraFilter, extraFilterKey]);
 
+  // Proficiency by Grade (latest year)
   const byGrade = useMemo(() => {
     const rowsYG = sheetRows.filter(
       (r) =>
@@ -438,6 +487,7 @@ export default function Page() {
     });
   }, [sheetRows, year, category, extraFilter, extraFilterKey]);
 
+  // Levels (Latest Year) — pie
   const levelsPie = useMemo(() => {
     const rowsY = sheetRows.filter(
       (r) =>
@@ -454,6 +504,7 @@ export default function Page() {
     ];
   }, [sheetRows, year, category, extraFilter, extraFilterKey]);
 
+  // Levels stacked by year
   const levelsStacked = useMemo(() => {
     const ys = uniq(sheetRows.map((r) => r[COLS.year])).map(Number).sort((a,b)=>a-b);
     return ys.map((y) => {
@@ -474,6 +525,7 @@ export default function Page() {
     });
   }, [sheetRows, category, grade, extraFilter, extraFilterKey]);
 
+  // Caterpillar (rank) for Borough/District
   const caterpillar = useMemo(() => {
     if (level !== "borough" && level !== "district") return [];
     const key = level === "borough" ? "Borough" : "District";
@@ -491,6 +543,7 @@ export default function Page() {
     return out;
   }, [sheetRows, level, year, category, grade]);
 
+  // Pareto of subgroups w/ benchmark (All Students)
   const pareto = useMemo(() => {
     const rowsY = sheetRows.filter(
       (r) => Number(r[COLS.year]) === Number(year) && matchesGrade(r)
@@ -507,6 +560,7 @@ export default function Page() {
     return { data, benchmark };
   }, [sheetRows, year, grade]);
 
+  // Heatmap (Years × Grades) for % L3/4
   const heatmap = useMemo(() => {
     const ys = uniq(sheetRows.map((r) => r[COLS.year])).map(Number).sort((a,b)=>a-b);
     const gs = uniq(sheetRows.map((r) => r[COLS.grade]))
@@ -552,8 +606,17 @@ export default function Page() {
   /* ==================== render ==================== */
   return (
     <div className="min-h-screen" style={{ background: "#f8fafc" }}>
+      {/* full-screen loading overlay */}
+      <LoadingOverlay
+        show={loading}
+        label={`Loading ${subject} / ${level}${level === "school" && school !== "All" ? ` / ${school}` : ""}…`}
+      />
+
       {/* header */}
-      <div className="sticky top-0 z-20 backdrop-blur border-b" style={{ background: "rgba(255,255,255,0.9)", borderColor: "#e2e8f0" }}>
+      <div
+        className="sticky top-0 z-20 backdrop-blur border-b"
+        style={{ background: "rgba(255,255,255,0.9)", borderColor: "#e2e8f0" }}
+      >
         <div className="max-w-7xl mx-auto px-4 pt-3 pb-2 flex items-center justify-between">
           <h1 className="text-2xl md:text-3xl font-semibold" style={{ color: BRAND.text }}>
             NY State Assessment - Created by DistrictArc
@@ -607,10 +670,20 @@ export default function Page() {
             <div className="grid grid-cols-12 gap-3">
               <div className="col-span-12 lg:col-span-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3">
                 {level === "borough" && (
-                  <Select label="Borough" value={extraFilter} options={["All", ...extraOptionsAll]} onChange={setExtraFilter} />
+                  <Select
+                    label="Borough"
+                    value={extraFilter}
+                    options={["All", ...extraOptionsAll]}
+                    onChange={setExtraFilter}
+                  />
                 )}
                 {level === "district" && (
-                  <Select label="District" value={extraFilter} options={["All", ...extraOptionsAll]} onChange={setExtraFilter} />
+                  <Select
+                    label="District"
+                    value={extraFilter}
+                    options={["All", ...extraOptionsAll]}
+                    onChange={setExtraFilter}
+                  />
                 )}
                 {level === "school" && (
                   <SearchableCombo
@@ -630,7 +703,8 @@ export default function Page() {
 
               {/* subject segmented + mini actions */}
               <div className="col-span-12 lg:col-span-3 flex items-end lg:items-center justify-start lg:justify-end gap-2">
-                <div className="inline-flex items-center rounded-xl border p-1" style={{ borderColor: "#cbd5e1", background: "white" }}>
+                <div className="inline-flex items-center rounded-xl border p-1"
+                     style={{ borderColor: "#cbd5e1", background: "white" }}>
                   {(["ELA","Math"] as const).map((s) => {
                     const active = subject === s;
                     return (
@@ -639,7 +713,10 @@ export default function Page() {
                         onClick={() => setSubject(s)}
                         aria-pressed={active}
                         className="px-4 py-1.5 text-sm rounded-lg transition"
-                        style={{ background: active ? BRAND.primaryDark : "transparent", color: active ? "white" : BRAND.text }}
+                        style={{
+                          background: active ? BRAND.primaryDark : "transparent",
+                          color: active ? "white" : BRAND.text,
+                        }}
                       >
                         {s}
                       </button>
@@ -666,12 +743,7 @@ export default function Page() {
         </div>
       </div>
 
-      {/* status banners */}
-      {loading && (
-        <div className="max-w-7xl mx-auto px-4 py-2 text-sm" style={{ color: BRAND.accent }}>
-          Loading {subject} / {level}{level==="school" && school!=="All" ? ` / ${school}` : ""}…
-        </div>
-      )}
+      {/* status banners (kept, in addition to overlay) */}
       {error && (
         <div className="max-w-7xl mx-auto px-4 py-2 text-sm" style={{ color: "#dc2626" }}>
           Error: {error}
@@ -718,15 +790,41 @@ export default function Page() {
               <LineChart data={trend} margin={{ left: 8, right: 16, top: 8, bottom: 8 }}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="year" tick={{ fontSize: 12 }} />
-                <YAxis yAxisId="left" tickFormatter={(v) => `${Math.round(Number(v))}%`} domain={[0, 100]} />
-                <YAxis yAxisId="right" orientation="right" tickFormatter={(v) => `${Math.round(Number(v))}`} />
+                <YAxis
+                  yAxisId="left"
+                  tickFormatter={(v) => `${Math.round(Number(v))}%`}
+                  domain={[0, 100]}
+                />
+                <YAxis
+                  yAxisId="right"
+                  orientation="right"
+                  tickFormatter={(v) => `${Math.round(Number(v))}`}
+                />
                 <Tooltip
-                  formatter={(v, name) => name === "% Proficient" ? `${round(Number(v), 1)}%` : `${round(Number(v), 1)}`}
+                  formatter={(v, name) =>
+                    name === "% Proficient" ? `${round(Number(v), 1)}%` : `${round(Number(v), 1)}`
+                  }
                   labelFormatter={(l) => `${l}`}
                 />
                 <Legend />
-                <Line yAxisId="left" type="monotone" dataKey="pct" name="% Proficient" strokeWidth={3} dot={false} stroke={COLORS[0]} />
-                <Line yAxisId="right" type="monotone" dataKey="mean" name="Mean Scale" strokeWidth={3} dot={false} stroke={COLORS[3]} />
+                <Line
+                  yAxisId="left"
+                  type="monotone"
+                  dataKey="pct"
+                  name="% Proficient"
+                  strokeWidth={3}
+                  dot={false}
+                  stroke={COLORS[0]}
+                />
+                <Line
+                  yAxisId="right"
+                  type="monotone"
+                  dataKey="mean"
+                  name="Mean Scale"
+                  strokeWidth={3}
+                  dot={false}
+                  stroke={COLORS[3]}
+                />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -754,8 +852,17 @@ export default function Page() {
           <div className="h-64">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
-                <Pie data={levelsPie} dataKey="value" nameKey="name" innerRadius={60} outerRadius={90} paddingAngle={2}>
-                  {levelsPie.map((d, i) => (<Cell key={i} fill={d.color} />))}
+                <Pie
+                  data={levelsPie}
+                  dataKey="value"
+                  nameKey="name"
+                  innerRadius={60}
+                  outerRadius={90}
+                  paddingAngle={2}
+                >
+                  {levelsPie.map((d, i) => (
+                    <Cell key={i} fill={d.color} />
+                  ))}
                 </Pie>
                 <Tooltip formatter={(v: any) => `${round(Number(v), 1)}%`} />
                 <Legend />
@@ -772,7 +879,7 @@ export default function Page() {
                 <XAxis dataKey="year" tick={{ fontSize: 12 }} />
                 <YAxis tickFormatter={(v) => `${Math.round(Number(v) * 100)}%`} />
                 <Tooltip
-                  formatter={(val: any, _n: any, ctx: any) => {
+                  formatter={(val: any, _name: any, ctx: any) => {
                     const p = ctx?.payload ?? {};
                     const total = (Number(p.L1) || 0) + (Number(p.L2) || 0) + (Number(p.L3) || 0) + (Number(p.L4) || 0);
                     const ratio = total > 0 ? Number(val) / total : 0;
@@ -791,7 +898,7 @@ export default function Page() {
         </Card>
       </section>
 
-      {/* Row: Caterpillar + Pareto + Heatmap */}
+      {/* Row: Caterpillar (rank) + Pareto + Heatmap */}
       <section className="max-w-7xl mx-auto px-4 pb-10 grid grid-cols-1 lg:grid-cols-3 gap-4">
         <Card
           title={level === "district" ? "District Rank — % L3/4" : level === "borough" ? "Borough Rank — % L3/4" : "Rank — % L3/4"}
@@ -800,7 +907,11 @@ export default function Page() {
           <div className="h-64">
             {caterpillar.length ? (
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={caterpillar} layout="vertical" margin={{ left: 8, right: 8, top: 8, bottom: 8 }}>
+                <BarChart
+                  data={caterpillar}
+                  layout="vertical"
+                  margin={{ left: 8, right: 8, top: 8, bottom: 8 }}
+                >
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis type="number" domain={[0, 100]} tickFormatter={(v) => `${Math.round(Number(v))}%`} />
                   <YAxis type="category" dataKey="name" width={100} />
@@ -843,9 +954,7 @@ export default function Page() {
                   <tr>
                     <th className="text-xs text-left" style={{ color: BRAND.textLight }}>Year ↓ / Grade →</th>
                     {heatmap.grades.map((g) => (
-                      <th key={String(g)} className="text-xs px-2 text-center" style={{ color: BRAND.text }}>
-                        {String(g)}
-                      </th>
+                      <th key={String(g)} className="text-xs px-2 text-center" style={{ color: BRAND.text }}>{String(g)}</th>
                     ))}
                   </tr>
                 </thead>
@@ -856,13 +965,10 @@ export default function Page() {
                       {heatmap.grades.map((g) => {
                         const v = heatmap.val(y, g);
                         const alpha = v == null ? 0 : Math.min(1, Math.max(0.1, v / 100));
-                        const bg = `rgba(34,197,94,${alpha})`;
+                        const bg = `rgba(34,197,94,${alpha})`; // emerald scale
                         return (
-                          <td
-                            key={String(g)}
-                            className="text-[11px] text-center rounded"
-                            style={{ backgroundColor: v==null ? "#f1f5f9" : bg, color: BRAND.text, padding: "6px 8px", minWidth: 40 }}
-                          >
+                          <td key={String(g)} className="text-[11px] text-center rounded"
+                              style={{ backgroundColor: v==null ? "#f1f5f9" : bg, color: BRAND.text, padding: "6px 8px", minWidth: 40 }}>
                             {v==null ? "—" : `${Math.round(v)}%`}
                           </td>
                         );
