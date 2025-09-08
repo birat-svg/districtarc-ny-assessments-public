@@ -1,8 +1,8 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:ci"
   publish = ".next"
-  functions = "netlify/functions"
 
+# keep your existing redirect
 [[redirects]]
   from = "/"
   to = "/ny-assessments-public"
