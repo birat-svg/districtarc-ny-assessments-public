@@ -172,7 +172,8 @@ type Level = "city" | "borough" | "district" | "school";
 type Subject = "ELA" | "Math";
 
 /* ==================== API base (for data rows) ==================== */
-const API_BASE = "/ny-assessments-public/api/assessments";
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "/ny-assessments-public";
+const API_BASE = `${BASE_PATH}/api/assessments`;
 
 /* ==================== loading overlay ==================== */
 function LoadingOverlay({ show, label }: { show: boolean; label?: string }) {

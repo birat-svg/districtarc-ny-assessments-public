@@ -6,6 +6,22 @@ import {
   loadSchoolForName,
 } from "@/lib/loadAssessments";
 
+/** Force dynamic execution (no ISR/prerender), avoid Edge caching. */
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+function noStoreJson(data: any, status = 200) {
+  return NextResponse.json(data, {
+    status,
+    headers: {
+      "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+      "Pragma": "no-cache",
+      "Expires": "0",
+    },
+  });
+}
+
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
 
@@ -16,43 +32,27 @@ export async function GET(req: Request) {
   const school = (searchParams.get("school") || "").trim();
 
   try {
-    // --- return only school names (fast; from public JSON) ---
+    // --- return only school names (served from public JSON / fast path) ---
     if (level === "school" && wantNames) {
       const names = await getSchoolNames(subject);
-      // Cache lightly at the edge; users can still refresh with SWR.
-      return NextResponse.json(
-        { names },
-        { headers: { "Cache-Control": "s-maxage=600, stale-while-revalidate=86400" } }
-      );
+      return noStoreJson({ names });
     }
 
     // --- load rows for a single selected school (small payload) ---
     if (level === "school") {
       if (!school || school === "All") {
         // UI expects empty object when no school picked
-        return NextResponse.json(
-          {},
-          { headers: { "Cache-Control": "no-store" } }
-        );
+        return noStoreJson({});
       }
       const payload = await loadSchoolForName(subject, school);
-      return NextResponse.json(
-        payload,
-        { headers: { "Cache-Control": "no-store" } }
-      );
+      return noStoreJson(payload);
     }
 
     // --- city / borough / district ---
     const payload = await loadAssessments(subject, level);
-    return NextResponse.json(
-      payload,
-      { headers: { "Cache-Control": "s-maxage=300, stale-while-revalidate=3600" } }
-    );
+    return noStoreJson(payload);
   } catch (e: any) {
     console.error("[/ny-assessments-public/api/assessments] error:", e);
-    return NextResponse.json(
-      { error: e?.message || "Server error" },
-      { status: 500 }
-    );
+    return noStoreJson({ error: e?.message || "Server error" }, 500);
   }
 }
