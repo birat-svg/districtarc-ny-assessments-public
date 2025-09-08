@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "prebuild": "node scripts/build-school-names.mjs",
+    "prebuild:schools": "node scripts/build-school-payloads.mjs",
     "rebuild-schools": "node scripts/build-school-names.mjs"
   },
   "dependencies": {
